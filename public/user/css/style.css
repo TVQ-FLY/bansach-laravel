@@ -35,7 +35,14 @@ table {
 table tr td {
     padding: 10px 15px;
 }
-  
+
+/* Root */
+:root{
+    --orange-color: #ff4e00;
+}
+
+
+
 .thong-tin tr:nth-child(even) {
     background-color: rgb(250, 249, 249);
   }
@@ -46,8 +53,12 @@ a:hover {
     color: #ff4e00;
     border-radius: 0px;
 }
+
+.fa-user{
+}
+
 .hover-nut {
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     color: #9c9b9b;
     font-weight:500;
@@ -103,7 +114,7 @@ label {
 /*-- header --*/
 
 header {
-    padding: 2em 2em 0 2em;
+    padding: 0em 2em 0 2em;
 }
 
 .top-bar_sub .btn-primary {
@@ -140,13 +151,17 @@ span.sub {
 }
 
 h1.logo-w3layouts a.navbar-brand {
-    font-size: 1.5em;
+    font-size: 1em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
-    color: #454546;
+    color: #000000;
     margin: 0;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+}
+
+h1.logo-w3layouts a.navbar-brand:hover{
+    color: var(--orange-color);
 }
 
 .top-header {
@@ -154,20 +169,29 @@ h1.logo-w3layouts a.navbar-brand {
 }
 .input-search {
     align-items: center;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
     margin-bottom: 0;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.05rem;
+    font-weight: 500;
+    /* min-width: none; */
+    width: 500px;
+    margin-right: 100px;
     color: #495057;
     text-align: left;
     white-space: nowrap;
     background-color: #e9ecef;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    overflow: visible;
+    overflow: auto;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* search-test */
+
+
+
+
 .navbar-light .navbar-nav .nav-link,
 .dropdown-item {
     color: #828284;
@@ -186,6 +210,7 @@ h1.logo-w3layouts a.navbar-brand {
 
 .dropdown-menu {
     background-color: rgb(255, 255, 255);
+    width: 600px;
 }
 
 .dropdown-item.active,
@@ -276,15 +301,15 @@ h1.logo-w3layouts a.navbar-brand {
 }
 
 label.top-log {
-    width: 45%;
-    height: 1px;
-    background: #d7d7da;
+    width: 100%;
+    height: 3px;
+    background: var(--orange-color);
     display: block;
     margin-bottom: 10px;
 }
 
 li.number-phone {
-    color: #3e3a3a;
+    color: #ffffff;
 }
 .media-list a img{
     width:100%;
@@ -297,6 +322,11 @@ li.number-phone {
     margin: 0;
 }
 
+.form-control{
+    padding-right: 90%;
+}
+
+
 
 .search {
     position: relative;
@@ -304,7 +334,8 @@ li.number-phone {
 
 ul.cart-inner-info{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .count{
     padding: 5px 10px; 
@@ -1545,7 +1576,7 @@ a.carousel-control-next.test, a.carousel-control-prev.test {
 /*--footer--*/
 
 footer {
-	background: #151515;
+	background: #ff4e00;
 }
 
 .footer-grid-w3ls h3 {
@@ -1554,13 +1585,13 @@ footer {
 	font-weight: 300;
 	margin-bottom: 1em;
 	letter-spacing: 1px;
-	border-bottom: 1px dotted #4d5052;
+	border-bottom: 3px solid #ffffff;
 	padding-bottom: 0.8em;
 }
 
 .footer-text p,
 .contact-info p {
-    color: #616263;
+    color: #ffffff;
 	line-height: 1.9em;
 }
 
@@ -1577,17 +1608,17 @@ footer {
 }
 
 .copyright-w3layouts {
-	border-top: 1px solid #292828;
+	border-top: 3px solid #ffffff;
 	margin-top: 2em;
 	padding-top: 2em;
 }
 
 .copyright-w3layouts p {
-    color: #616263;
+    color: #ffffff;
 }
 
 .copyright-w3layouts p a:hover {
-	color: #fff;
+	color: #000000;
 }
 
 .footer p {
@@ -1659,11 +1690,11 @@ ul.social_section_1info a:hover {
 }
 
 .phone p a {
-	color: #808080;
+	color: #ffffff;
 }
 
 .phone p a:hover {
-	color: #fff;
+	color: #000000;
 }
 
 ul.links li {
@@ -1672,15 +1703,15 @@ ul.links li {
 }
 
 ul.links li a {
-    color: #616263;
+    color: #ffffff;
 }
 
 ul.links li a:hover {
-	color: #fff;
+	color: #000000;
 }
 
 .copyright-w3layouts a i:hover {
-	color: #ffa200;
+	color: #000000;
 	transition: all 0.7s ease-in-out;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -1697,17 +1728,17 @@ ul.links li a:hover {
     display: inline-block;
 }
 .footer-social li a {
-    color: #999;
+    color: #ffffff;
     font-size: 15px;
 }
 .footer-social li a:hover {
-    color: #ff4e00;
+    color: #000000;
 }
 
 /*--//social-icons--*/
 
 .copyright-w3layouts a {
-    color: #ff4e00;
+    color: #ffffff;
 }
 
 /*--//footer--*/
@@ -2447,7 +2478,7 @@ div#navbarSupportedContent {
 }
 div#search_ajax {
     position: absolute;
-    top: 56px;
+    top: 50px;
 }
 
 

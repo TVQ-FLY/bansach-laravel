@@ -35,13 +35,14 @@ class UserController extends Controller
         $this->user='user/pages/';
     }
     public function Index(){
+       
         $slideshow=SlideShow::where('Xoa',0)->where('id',6)->get();
         $slideshow2=SlideShow::where('Xoa',0)->where('id',2)->get();
         $slideshow3=SlideShow::where('Xoa',0)->where('id',3)->get();
         $slideshow4=SlideShow::where('Xoa',0)->where('id',4)->get();
         $slideshow5=SlideShow::where('Xoa',0)->where('id',5)->get();
 
-        $sach_moi_nhat = Sach::where('Xoa', 0)->where('IdKM','=',NULL)->orderBy('created_at', 'desc')->where('TrangThai',2)->take(8)->get();
+        $sach_moi_nhat = Sach::where('Xoa', 0)->where('IdKM','=',NULL)->orderBy('created_at', 'desc')->where('TrangThai',2)->take(9)->get();
         $listcha=TheLoaiCha::where('Xoa',0)->get();
        foreach($listcha as $cha){
            $cha->listcon=TheLoai::where('Xoa',0)->where('TenTLCha',$cha->id)->get();

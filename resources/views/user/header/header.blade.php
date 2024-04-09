@@ -178,21 +178,43 @@
 }
 </style>
 <!-- End Modal -->
-<div class="banner-top container-fluid" id="home">
+<div class="banner-top container-fluid mx-0 px-0" id="home">
 		<!-- header -->
 		<header>
-			<div class="row">
+
+			<div class="row align-items-center">
 				<!-- LOGO của trang web -->
-				<div class="col-md-3 top-info text-left mt-lg-4">
-					<img width="40%" height="30%" src="{!! asset('user\images\logo_min.png')!!}" class="img-fluid" alt="" >
-				</div>
-				<!-- BANNER của trang web -->
-				<div class="col-md-6 logo-w3layouts top-info text-center">
+				<div class="col-md-1 top-info text-center mt-lg-4 align-items-center">
+					<img width="90%" height="90%" src="{!! asset('user\images\logo_min.png')!!}" class="img-fluid" alt="" >
+          </div>
+          <!-- BANNER của trang web -->
+          <div class="col-md-3 logo-w3layouts top-info text-left">
 					<h1 class="logo-w3layouts">
 						<a class="navbar-brand" href="{{ url('/') }}">
-							N&T Books </a>
+							HRT Books </a>
 					</h1>
 				</div>
+
+        <div id="navbarSupportedContent" class="col-md-5" >
+          <ul class="navbar-nav nav-mega mx-auto">
+            <li style="">
+                <form id="form-search" action="{{route('Search')}}"> 
+                @csrf
+                  <input type="text" class="input-search" name="keyword" id="keywords" placeholder="Tìm kiếm">
+                  
+                  <button style="border-color: #ff4e00; border-radius: 0.25rem; padding: 0.5rem 1rem; background-color: #ff4e00; color: #fff;" type="button" onclick="saveSearch()">
+                    <i class="fas fa-search"></i>
+                  </button>	
+                </form>
+            </li>
+          </ul>
+          <div id="search_ajax"></div>
+        </div>
+
+        <!-- test-search -->
+
+
+
 				<!--Cá nhân -->
 				<div class="col-md-3 text-right mt-lg-4">
         <ul class="cart-inner-info">
@@ -207,7 +229,7 @@
 						<!-- Đăng nhập -->
 						<li class="dropdown">
 						@if (session()->has('infoUser') == null)
-							<span class="fa fa-user" aria-hidden="true" style="color: rgb(35, 175, 156);"></span><a href="{{route('getLogin')}}" class="hover-nut"> Đăng Nhập </a>
+							<span class="fa fa-user" aria-hidden="true" style="color: #ff4e00; font-size: 25px"></span><a href="{{route('getLogin')}}" class="hover-nut"> Đăng Nhập </a>
 						@else
 						<span class="fa fa-user" aria-hidden="true" style="color: rgb(35, 175, 156);"><a id="a" class="hover-nut dropdown-toggle" href="#" data-toggle="dropdown" style="margin-left: 5px;" id="profileDropdown"><?php $infoUser =session()->get('infoUser') ?>Hi!&nbsp{{$infoUser['HoTen']}} </a>
 						<div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown" style="margin-top:-2px; margin-left: -20px;">
@@ -229,7 +251,7 @@
 
 						<!-- Giỏ hàng -->
             <li>
-           <div><span class="fas fa-cart-plus" aria-hidden="true" style="color: rgb(35, 175, 156); margin-right: 15px;"></span><a href="{{route('user.cart')}}" class="hover-nut">Giỏ hàng </a>
+           <div><span class="fas fa-cart-plus" aria-hidden="true" style="color: #ff4e00; font-size: 25px; margin-right: 15px;"></span><a href="{{route('user.cart')}}" class="hover-nut">Giỏ hàng </a>
          
 								<!-- Create an icon wrapped by the fa-stack class -->
                

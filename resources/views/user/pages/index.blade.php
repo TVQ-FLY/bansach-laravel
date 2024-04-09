@@ -41,7 +41,7 @@
 					</div>
 					@endforeach
 					@foreach($slideshow4 as $slideshows)
-					<div class="carousel-item item4"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}"
+					<div class="carousel-item item5"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}"
 						<div class="carousel-caption text-center">
 							<!-- <h3>Đồng Hành Cùng N&T
 								<span>Trở Lại Trường Sau Mùa Hè</span>
@@ -74,7 +74,7 @@
 				<div class="row">
 					<!-- Sách mới -->
 					@foreach($sach_moi_nhat as $books)
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="product-googles-info googles">
 							
 							<div class="men-pro-item">

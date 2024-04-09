@@ -161,14 +161,16 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #ff4e00;
+  padding-left: 10px;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
+
 a:hover {
-  color: #0056b3;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -3155,7 +3157,7 @@ tbody.collapse.show {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1000;
+  z-index: 999;
   display: none;
   float: left;
   min-width: 10rem;
@@ -8299,7 +8301,7 @@ button.bg-dark:focus {
   }
   .mt-lg-4,
   .my-lg-4 {
-    margin-top: 1.5rem !important;
+    /* margin-top: 1.5rem !important; */
   }
   .mr-lg-4,
   .mx-lg-4 {

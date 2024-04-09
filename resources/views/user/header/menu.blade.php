@@ -62,7 +62,7 @@
 							<a class="nav-link" href="{{ route('user.contact')}}">Liên Hệ</a>
 						</li>
 						<!-- Thanh tìm kiếm -->
-						<li style="padding: 5px 0 0 15px;">
+						<!-- <li style="padding: 5px 0 0 15px;">
 						<form id="form-search" action="{{route('Search')}}"> 
 						@csrf
 							<input type="text" class="input-search" name="keyword" id="keywords">
@@ -73,7 +73,7 @@
 						</form>
 						</li>
 					</ul>
-					<div id="search_ajax"></div>
+					<div id="search_ajax"></div> -->
 				</div>
 			</nav>
 		</header>
