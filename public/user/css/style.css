@@ -54,8 +54,7 @@ a:hover {
     border-radius: 0px;
 }
 
-.fa-user{
-}
+
 
 .hover-nut {
     font-size: 1.5rem;
@@ -210,7 +209,7 @@ h1.logo-w3layouts a.navbar-brand:hover{
 
 .dropdown-menu {
     background-color: rgb(255, 255, 255);
-    width: 600px;
+    /* width: 600px; */
 }
 
 .dropdown-item.active,
@@ -291,7 +290,7 @@ h1.logo-w3layouts a.navbar-brand:hover{
 }
 
 .media-list li a:hover {
-    color: #141415;
+    color: var(--orange-color);
 }
 
 .media-list h5 {
@@ -323,7 +322,7 @@ li.number-phone {
 }
 
 .form-control{
-    padding-right: 90%;
+    /* padding-right: 50%; */
 }
 
 
@@ -1398,13 +1397,14 @@ input#datepicker {
 /*-- //Popup-Box --*/
 
 .banner_inner {
-    background: url(../images/banner-9.jpg)no-repeat 0px -73px;
+    /* background: url(../images/banner-9.jpg)no-repeat 0px -73px; */
+    background-color: var(--orange-color);
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     moz-background-size: cover;
-    min-height: 100px;
+    min-height: 60px;
 }
 
 ul.short {
@@ -2102,6 +2102,12 @@ ul.links li a:hover {
         position: static;
         display: none;
         float: none;
+    }
+
+    .gio_hang{
+        align-items: center;
+        margin: auto;
+        display: flex;
     }
     .bottom-sub-grid {
         padding: 2em 4em;

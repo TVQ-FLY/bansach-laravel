@@ -50,6 +50,12 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+:root{
+  --orange-color: #ff4e00;
+}
+
+
+
 @-ms-viewport {
   width: device-width;
 }
@@ -423,10 +429,10 @@ h6, .h6 {
 }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid var(--orange-color);
 }
 
 small,
@@ -1958,7 +1964,7 @@ pre code {
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 450px;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -2504,15 +2510,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #ff4e00;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2538,9 +2544,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: var(--orange-color);
+  background-color: #fff;
+  border-color: #ffffff;
 }
 
 .btn-secondary:hover {
@@ -4999,7 +5005,7 @@ tbody.collapse.show {
 }
 
 .alert-secondary hr {
-  border-top-color: #c8cbcf;
+  border-top-color: #000000;
 }
 
 .alert-secondary .alert-link {
@@ -5007,9 +5013,9 @@ tbody.collapse.show {
 }
 
 .alert-success {
-  color: #155724;
-  background-color: #d4edda;
-  border-color: #c3e6cb;
+  color: #ffffff;
+  background-color: #ff4e00;
+  border-color: #ff4e00;
 }
 
 .alert-success hr {
@@ -8738,7 +8744,7 @@ button.bg-dark:focus {
 }
 
 .text-right {
-  text-align: right !important;
+  /* text-align: right !important; */
 }
 
 .text-center {

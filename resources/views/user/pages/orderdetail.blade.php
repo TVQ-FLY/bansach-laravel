@@ -13,7 +13,7 @@ td, th {
 		<div class="inner_breadcrumb">
 			<ul class="short">
 				<li>
-					<a href="{{route('user.index')}}">Trang chủ</a>
+					<a href="{{route('user.index')}}"style="color: white">Trang chủ</a>
 					<i class='fas fa-angle-right'></i>
 				</li>
 				<li>

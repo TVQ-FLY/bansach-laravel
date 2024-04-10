@@ -174,7 +174,7 @@
   align-items: center;
   box-shadow: 0 1px 10px rgba(255, 0, 0, 0.46);
   margin-right: 60px;
-  margin-bottom:16px;
+  /* margin-bottom:16px; */
 }
 </style>
 <!-- End Modal -->
@@ -195,7 +195,7 @@
 					</h1>
 				</div>
 
-        <div id="navbarSupportedContent" class="col-md-5" >
+        <div id="navbarSupportedContent" class="col-md-4" >
           <ul class="navbar-nav nav-mega mx-auto">
             <li style="">
                 <form id="form-search" action="{{route('Search')}}"> 
@@ -211,17 +211,16 @@
           <div id="search_ajax"></div>
         </div>
 
-        <!-- test-search -->
 
 
 
 				<!--Cá nhân -->
-				<div class="col-md-3 text-right mt-lg-4">
+				<div class="col-md-4 text-right mt-lg-4">
         <ul class="cart-inner-info">
             <!-- Yêu thích -->
             @if (session()->has('infoUser') != null)
             <li>
-              <span class="wishlist"> <a href="{{route('user.wishlist')}}" class="hover-nut"> <i class="fas fa-heart" aria-hidden="true"></i> </a> </span>
+              <!-- <span class="wishlist"> <a href="{{route('user.wishlist')}}" class="hover-nut"> <i class="fas fa-heart" aria-hidden="true"></i> </a> </span> -->
 					  		
               <!-- <span class="count"></span> -->
             </li>
@@ -231,18 +230,18 @@
 						@if (session()->has('infoUser') == null)
 							<span class="fa fa-user" aria-hidden="true" style="color: #ff4e00; font-size: 25px"></span><a href="{{route('getLogin')}}" class="hover-nut"> Đăng Nhập </a>
 						@else
-						<span class="fa fa-user" aria-hidden="true" style="color: rgb(35, 175, 156);"><a id="a" class="hover-nut dropdown-toggle" href="#" data-toggle="dropdown" style="margin-left: 5px;" id="profileDropdown"><?php $infoUser =session()->get('infoUser') ?>Hi!&nbsp{{$infoUser['HoTen']}} </a>
+						<span class="fa fa-user" aria-hidden="true" style="color: #ff4e00;"><a id="a" class="hover-nut dropdown-toggle" href="#" data-toggle="dropdown" style="margin-left: 5px;" id="profileDropdown"><?php $infoUser =session()->get('infoUser') ?>Hi!&nbsp{{$infoUser['HoTen']}} </a>
 						<div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown" style="margin-top:-2px; margin-left: -20px;">
 							<a class="dropdown-item hover-nut" href="{{ route('user.account') }}" style="text-transform:none;font-size: 1rem;letter-spacing: 3px;color: #9c9b9b;cursor: pointer">
-								<i class="fas fa-address-card" style="color: rgb(35, 175, 156);"></i>
+								<i class="fas fa-address-card" style="color: #ff4e00;"></i>
 								Thông tin
 							</a>
 							<a class="dropdown-item hover-nut" data-toggle="modal" data-target="#exampleEditPassCenter" style="text-transform:none;font-size: 1rem;letter-spacing: 3px;color: #9c9b9b;cursor: pointer">
-								<i class="fas fa-key" style="color: rgb(35, 175, 156);"></i>
+								<i class="fas fa-key" style="color: #ff4e00;"></i>
 								Đổi mật khẩu
 							</a>
 							<a class="dropdown-item hover-nut" href="{{route('getLogout')}}" style="text-transform: none;font-size: 1rem;letter-spacing: 3px;color: #9c9b9b;cursor: pointer">
-								<i class="fas fa-sign-out-alt" style="color: rgb(35, 175, 156);"></i>
+								<i class="fas fa-sign-out-alt" style="color: #ff4e00;"></i>
 								Đăng Xuất
 							</a>
 						</div>
@@ -250,7 +249,7 @@
 						</li>
 
 						<!-- Giỏ hàng -->
-            <li>
+            <li class="gio_hang">
            <div><span class="fas fa-cart-plus" aria-hidden="true" style="color: #ff4e00; font-size: 25px; margin-right: 15px;"></span><a href="{{route('user.cart')}}" class="hover-nut">Giỏ hàng </a>
          
 								<!-- Create an icon wrapped by the fa-stack class -->
@@ -299,9 +298,9 @@
   <div class="modal fade" id="exampleEditPassCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background-color:#ffa500a8;">
+      <div class="modal-header" style="background-color:#ff4e00;">
         <h5 class="modal-title" id="exampleModalLongTitle" style="color:white; font-size:120%; padding-left:170px">ĐỔI MẬT KHẨU</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -311,7 +310,8 @@
         <div class="row">
       <div class="col-lg-12">
 				<label>Họ Tên</label>
-				<input type="text" class="form-control" name="HoTen"  value="{{$myaccount['HoTen']}}">
+				<!-- <input type="text" class="form-control" name="HoTen" style="width: 500px;"  value="{{$myaccount['HoTen']}}"> -->
+        <input type="text" class="form-control" name="HoTen" id="keywords" value="{{$myaccount['HoTen']}}" placeholder="Tìm kiếm">
 			</div>
       <div class="col-lg-12">
 				<label>Email</label>
@@ -331,7 +331,7 @@
 			</div>
 		</div>
       </div>
-      <div class="modal-footer" style="background-color:#ffa50099">
+      <div class="modal-footer" style="background-color:#ff4e00">
         <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i></button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-window-close"></i></button>
       </div>

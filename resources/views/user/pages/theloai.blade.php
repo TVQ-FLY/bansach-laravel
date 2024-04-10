@@ -7,7 +7,7 @@
 
 					<ul class="short">
 						<li>
-							<a href="{{route('user.index')}}">Trang Chủ</a>
+							<a href="{{route('user.index')}}" style="color: white">Trang Chủ</a>
 							<i>|</i>
 						</li>
 						<li>Sản Phẩm</li>

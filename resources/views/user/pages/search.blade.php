@@ -6,7 +6,7 @@
 				<div class="inner_breadcrumb">
                     <ul class="short">
 						<li>
-							<a href="{{route('user.index')}}">Trang Chủ</a>
+							<a href="{{route('user.index')}}" style="color: white">Trang Chủ</a>
 							<i class='fas fa-angle-right'></i>
 						</li>
 						<li>KẾT QUẢ TÌM KIẾM</li>

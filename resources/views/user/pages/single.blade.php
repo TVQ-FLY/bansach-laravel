@@ -21,7 +21,7 @@
 
 					<ul class="short">
 						<li>
-							<a href="index.html">Trang chủ</a>
+							<a href="index.html" style="color: white">Trang chủ</a>
 							<i>|</i>
 						</li>
 						<li>Chi tiết sản phẩm</li>
