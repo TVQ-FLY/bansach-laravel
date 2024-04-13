@@ -13,11 +13,11 @@ td, th {
 		<div class="inner_breadcrumb">
 			<ul class="short">
 				<li>
-					<a href="">Trang chủ</a>
+					<a href="" style="color: white">Trang chủ</a>
 					<i class='fas fa-angle-right'></i>
 				</li>
 				<li>
-					<a href="">Giỏ hàng</a>
+					<a href="" style="color: white">Giỏ hàng</a>
 					<i class='fas fa-angle-right'></i>
 				</li>
 				<li>Thanh toán </li>

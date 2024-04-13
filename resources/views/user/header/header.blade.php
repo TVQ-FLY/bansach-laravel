@@ -220,7 +220,7 @@
             <!-- Yêu thích -->
             @if (session()->has('infoUser') != null)
             <li>
-              <!-- <span class="wishlist"> <a href="{{route('user.wishlist')}}" class="hover-nut"> <i class="fas fa-heart" aria-hidden="true"></i> </a> </span> -->
+              <span class="wishlist"> <a href="{{route('user.wishlist')}}" class="hover-nut"> <i class="fas fa-heart" aria-hidden="true"></i> </a> </span>
 					  		
               <!-- <span class="count"></span> -->
             </li>

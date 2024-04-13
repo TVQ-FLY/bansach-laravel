@@ -35,7 +35,7 @@
                                 </div>
                                 <br>
                                 <h6 style="font-weight:700; width:1100px; padding-bottom:10px">THÔNG TIN CÁ NHÂN</h6>
-                                <table class="thong-tin" style="border-style:double">
+                                <table class="thong-tin" style="border: 3px solid #ff4e00">
 								<tbody>
 									<tr>
 										<td>Họ và tên:</td>
@@ -54,7 +54,7 @@
 										<td>{{$user['DiaChi']}}</td>
 									</tr>
                   <tr>
-                    <td><button class="btn btn-success" style="font-size:90%" data-toggle="modal" data-target="#exampleEditModalCenter">CẬP NHẬT</button><td>
+                    <td><button class="btn btn-success" style="font-size:90%; background-color: #ff4e00; border: none;" data-toggle="modal" data-target="#exampleEditModalCenter">CẬP NHẬT</button><td>
                   </tr>
 								</tbody>
 								</table>
@@ -128,9 +128,9 @@
     <div class="modal fade" id="exampleEditModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header" style="background-color:#ffa500a8;">
+      <div class="modal-header" style="background-color:#ff4e00;">
         <h5 class="modal-title" id="exampleModalLongTitle" style="color:white; font-size:120%; padding-left:130px">THÔNG TIN CÁ NHÂN</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -149,7 +149,7 @@
                     <img width="15%" hight="10%" src="{{asset('image/'.$user['AnhDaiDien'])}}" class="img-thumbnail" />
                </div>
               </div>
-              <div class="col-lg-12" style="margin-top:20px">
+              <div class="col-lg-12" style="margin-top:40px">
                 <label for="exampleInputTopic">Họ tên</label>
                 <input type="text" class="form-control" value="{{$user['HoTen']}}" name="HoTen" placeholder="Họ tên" >
               </div>
@@ -163,7 +163,7 @@
               </div>
           </div>
       </div>
-      <div class="modal-footer" style="background-color:#ffa50099">
+      <div class="modal-footer" style="background-color:#ff4e00">
         <button type="button" class="btn btn-primary" id="btnsave"><i class="fas fa-save"></i></button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-window-close"></i></button>
       </div>

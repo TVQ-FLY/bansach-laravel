@@ -72,7 +72,7 @@
 						<!--/product right-->
 						<div class="left-ads-display col-lg-9">
 							<div class="wrapper_top_shop">
-								<div class="row">
+								<!-- <div class="row">
 										<div class="col-md-6 shop_left">
 												<img src="{!! asset('user\images\Book\SACH_KINH_TE\banner_Sach_kinh_te1.png') !!}" alt="">
 												
@@ -82,11 +82,11 @@
 									
 											</div>
 						
-								</div>
+								</div> -->
 								<div class="row">
 									<!-- /womens -->
 									@foreach($sach as $books)
-									<div class="col-md-3 product-men women_two shop-gd">
+									<div class="col-md-4 product-men women_two shop-gd">
 										<div class="product-googles-info googles">
 											<div class="men-pro-item">
 												<div class="men-thumb-item">
@@ -111,7 +111,7 @@
 																</h4>
 																<div class="grid-price mt-2">
                                                                     @if($books->GiaKM !=0)
-																<div class="price"><span class="money ">{{number_format($books->GiaKM,0,",",",")}} VND</span></div>
+																<div class="price"><span class="money ">Giá: {{number_format($books->GiaKM,0,",",",")}} VND</span></div>
                                                                   
 																<div class="rootprice"> <del>	<span class="money ">{{number_format($books->GiaTien,0,",",",")}} VND</span></del></div>
                                                                 @else

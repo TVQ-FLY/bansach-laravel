@@ -149,12 +149,13 @@
 																	<a href="{{route('user.single',$books->id)}}">{{$books->TenSach}}</a>
 																</h4>
 																<div class="grid-price mt-2">
-																	<span class="money ">{{number_format($books->GiaTien,0,",",",")}} VND</span>
+																	<span class="money ">Giá: {{number_format($books->GiaTien,0,",",",")}} VND</span>
 																</div>
 															</div>
 															
 														</div>
 														@if (session()->has('infoUser') != null)
+
 														<div class="googles single-item hvr-outline-out">
 														<form action="" method="POST">
 															{{csrf_field()}}
@@ -173,6 +174,12 @@
 														</div>
 														@endif
 													</div>
+													<div class="googles single-item hvr-outline-out">
+														<form action="" method="POST">
+															{{csrf_field()}}
+															<button type="button" class="btn btn-primary mt-2 mb-2"><a href="{{route('user.single',$books->id)}}">Mua Ngay</a></button>								
+														</form>
+														</div>
 													<div class="clearfix"></div>
 												</div>
 												

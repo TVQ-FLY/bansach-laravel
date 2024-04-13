@@ -9,7 +9,7 @@
 
 					<ul class="short">
 						<li>
-							<a href="index.html">Trang chủ</a>
+							<a href="index.html" style="color: white">Trang chủ</a>
 							<i>|</i>
 						</li>
 						<li>Giỏ hàng </li>
@@ -77,7 +77,7 @@
 							</tr>
 							<?php $stt++; ?>
 @endforeach
-						</tbody>>
+						</tbody>
 					</table>
 					@if ($gio_hang->count() == 0)
 						<h4 style="text-align: center;">Chưa có sản phẩm nào trong giỏ hàng.</h4>
@@ -99,6 +99,9 @@
 		</div>
 	</section>
 	<!--//checkout-->
-	
+
+
+
+
 	<!--footer -->
 	@stop

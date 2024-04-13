@@ -43,6 +43,26 @@ table tr td {
 
 
 
+
+/* Teamlate layout */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End teamolate layout */
+
+
+
 .thong-tin tr:nth-child(even) {
     background-color: rgb(250, 249, 249);
   }
@@ -50,7 +70,7 @@ table tr td {
 
 a:hover {
     text-decoration: none;
-    color: #ff4e00;
+    color: #000000;
     border-radius: 0px;
 }
 
@@ -59,7 +79,7 @@ a:hover {
 .hover-nut {
     font-size: 1.5rem;
     letter-spacing: 1px;
-    color: #9c9b9b;
+    color: var(--orange-color);
     font-weight:500;
     font-family: 'Roboto', sans-serif;
     
@@ -2511,12 +2531,12 @@ div#search_ajax {
     display: flex;
 }
 button.googles-heart {
-    border: 1px solid #fff;
-    background: #fff;
-    padding-top: 5px;
+    border: 1px solid #ff4e00;
+    padding-top: 10px;
+    background-color: #ff4e00;
 }
 .wishlist {
-    color: #000;
+    color: #ffffff;
 }
 .required{
     box-shadow: 0 0 0 2px red !important;
@@ -2551,8 +2571,14 @@ section.banner-bottom-wthreelayouts > .container {
 }
 
 .count {
-    border-radius: 0 !important;
-    border: 2px solid #9c9b9b !important;
-    background-color: #9c9b9b !important;
-    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    background-color: #ff4e00;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 1px 10px rgba(255, 0, 0, 0.46);
 }

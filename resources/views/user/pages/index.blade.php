@@ -2,36 +2,37 @@
 @section('content')
 
 
-		<!-- Slider Banner trang web -->
-		
-		<div class="banner">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				
-				<div class="carousel-inner" role="listbox">
-               		@foreach($slideshow as $slideshows)
-					<div class="carousel-item active"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}" class="img-fluid" alt="">
-						<div class="carousel-caption text-center">
-							<h3>Ưu Đãi Lớn
-								<span>Giảm Giá 50% Tất Cả Các Loại Sách</span>
-							</h3>
-							<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
-						</div>
-					</div>
-					@endforeach
-					@foreach($slideshow2 as $slideshows)
-					<div class="carousel-item item2"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}" class="img-fluid" alt="">">
-						<div class="carousel-caption text-center">
-							<h3>Với N&T
-								<span>Kiến Thức Là Vô Tận</span>
-							</h3>
-							<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
+<!-- Slider Banner trang web -->
 
-						</div>
-					</div>
-					@endforeach
-					@foreach($slideshow3 as $slideshows)
-					<div class="carousel-item item3"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}">
-						<div class="carousel-caption text-center">
+<div class="banner">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		
+		<div class="carousel-inner" role="listbox">
+			@foreach($slideshow as $slideshows)
+			<div class="carousel-item active"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}" class="img-fluid" alt="">
+			<div class="carousel-caption text-center">
+				@include('user/layout/content')
+				<h3>Ưu Đãi Lớn
+					<span>Giảm Giá 50% Tất Cả Các Loại Sách</span>
+				</h3>
+				<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
+			</div>
+		</div>
+		@endforeach
+		@foreach($slideshow2 as $slideshows)
+		<div class="carousel-item item2"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}" class="img-fluid" alt="">">
+		<div class="carousel-caption text-center">
+			<h3>Với N&T
+				<span>Kiến Thức Là Vô Tận</span>
+			</h3>
+			<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
+			
+		</div>
+	</div>
+	@endforeach
+	@foreach($slideshow3 as $slideshows)
+	<div class="carousel-item item3"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}">
+	<div class="carousel-caption text-center">
 							<h3>Đến Với N&T
 								<span>Chúng Tôi Sẽ Cho Bạn Dịch Vụ Tốt Nhất</span>
 							</h3>
@@ -65,16 +66,19 @@
 			</div>
 			<!--//banner -->
 		</div>
+
+
 	</div>
 	<!--//banner-sec-->
 	<section class="banner-bottom-wthreelayouts py-lg-5 py-3">
 		<div class="container-fluid">
+			@include('user/layout/content')
 			<div class="inner-sec-shop px-lg-4 px-3">
-				<h3 class="tittle-w3layouts my-lg-4 my-4">Sách Mới Cho Bạn </h3>
+				<h3 class="tittle-w3layouts my-lg-4 my-4 text-center fw-bold text-danger" id="contact">Sách Mới Cho Bạn </h3>
 				<div class="row">
 					<!-- Sách mới -->
 					@foreach($sach_moi_nhat as $books)
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<div class="product-googles-info googles">
 							
 							<div class="men-pro-item">
@@ -94,7 +98,7 @@
 													<a href="{{route('user.single',$books->id)}}">{{$books->TenSach}}</a>
 												</h4>
 												<div class="grid-price mt-2">
-													<span class="money ">{{number_format($books->GiaTien,0,",",",")}} VND</span>
+													<span class="money ">Giá: {{number_format($books->GiaTien,0,",",",")}} VND</span>
 												</div>
 											</div>
 										</div>
@@ -124,25 +128,23 @@
 						</div>
 					</div>
 					@endforeach
-				
-					
-					
-					
 				</div>
+
+
 				<!--//Sách mới-->
 				<!--/Banner middle trang web-->
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-md-12 middle-slider my-4">
-						<div class="middle-text-info" style="background-image: url(user/images/banner-middle.jpg);">
+						<div class="middle-text-info" style="background-image: url(user/images/banner-middle.jpg);"> -->
 							<!-- Bộ đếm ngược -->
 							<!-- <div class="simply-countdown-custom" id="simply-countdown-custom"></div> -->
-						</div>
+						<!-- </div>
 					</div>
 				</div>
-				
+				 -->
 				<!--//Banner trang web-->
 				<div class="inner-sec-shop px-lg-4 px-3">
-					<h3 class="tittle-w3layouts my-lg-4 my-4">Sách Bán Chạy Nhất </h3>
+					<!-- <h3 class="tittle-w3layouts my-lg-4 my-4">Sách Bán Chạy Nhất </h3> -->
 					<div class="row">
 						<!-- Sách bán chạy -->
 						@foreach($result as $bestSellers1)
@@ -166,7 +168,7 @@
 														<a href="{{route('user.single',$bestSellers1->id)}}">{{$bestSellers1->TenSach}}</a>
 													</h4>
 													<div class="grid-price mt-2">
-														<span class="money ">{{number_format($bestSellers1->GiaTien,0,",",",")}} VND</span>
+														<span class="money ">Giá: {{number_format($bestSellers1->GiaTien,0,",",",")}} VND</span>
 													</div>
 												</div>
 											</div>

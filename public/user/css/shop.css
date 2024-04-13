@@ -496,8 +496,8 @@ p.sbmincart-empty-text {
 }
 
 span.money {
-	font-size: 22px;
-	color: #ff4e00;
+	font-size: 15px;
+	color: #ffffff;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
@@ -520,7 +520,7 @@ span.money {
 }
 
 .link-product-add-cart {
-	background: #0c0c0c;
+	background: #ff4e00;
 	color: #fff;
 	display: inline-block;
 	height: 40px;
@@ -581,8 +581,8 @@ span.money {
 }
 
 .link-product-add-cart:hover {
-    background: #ff4e00;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
 }
 
 ul.stars a i {
@@ -606,7 +606,9 @@ ul.stars li a i:hover {
 .product-googles-info {
 	padding: 15px;
 	margin: 12px 0px;
-	border: 1px solid #0505058a;
+	border: 2px solid #ff4e00;
+	border-radius: 15px;
+	background-color: #ff4e00;
 }
 
 /*-- //effect on products --*/
@@ -905,7 +907,7 @@ input.checked {
 }
 
 .product_price h4 a {
-	color: #959596;
+	color: #ffffff;
     font-size: 23px;
 	line-height: 25px;
 	-webkit-line-clamp: 2;
@@ -914,6 +916,8 @@ input.checked {
     -webkit-box-orient: vertical;
 	
 }
+
+
 
 /*-- //customer --*/
 
@@ -971,10 +975,10 @@ span.item_price {
 	font-weight: 300;
 	/* margin-left: 13px; */
 	font-size: 15px;
-	color: #999999;
+	color: #040404;
 }
 .info-product-price del span {
-    color: #999999;
+    color: #000000;
 }
 
 .product-sec1.product-sec2 {
@@ -1022,7 +1026,7 @@ span.item_price {
 
 button.googles-cart {
 	font-size: 1.4em;
-	color: #333;
+	color: #ffffff;
 	border: none;
 	text-align: center;
 	border-left: none !important;
@@ -1030,8 +1034,8 @@ button.googles-cart {
 	margin-top: 0.5em;
 	cursor: pointer;
 }
-.product-googles-info:hover button.googles-cart{
-	color:#ff4e00;
+.product-googles-info button.googles-cart:hover{
+	color:#000000;
 }
 ul.footer_list_icons.single_in li {
 	color: #2f2f2f;
