@@ -18,8 +18,8 @@ td, th {
 				</li>
 				<li>
         
-					<a href="{{route('user.cart')}}">Đơn hàng {{$hoadon['id']}} </a>
-					<i class='fas fa-angle-hoadonright'></i>
+					<a href="{{route('user.cart')}}"style="color: white">Đơn hàng {{$hoadon['id']}} </a>
+					<i class='fas fa-angle-right'></i>
 				</li>
 				<li> Chi tiết </li>
 			</ul>
@@ -30,9 +30,9 @@ td, th {
 <!--// header_top -->
 <!--checkout-->
 <section class="banner-bottom-wthreelayouts py-lg-5 py-3">
-	<div class="container" style="border: solid 1px">
+	<div class="container" style="border: solid 3px #ff4e00">
 		<div class="inner-sec-shop px-lg-4 px-3">
-		<h3 style="text-align:center; color: #9c9b9b; letter-spacing: 2px; padding-top: 10px">CHI TIẾT ĐƠN HÀNG</h3>
+		<h3 style="text-align:center; color: #ff4e00; letter-spacing: 2px; padding-top: 10px">CHI TIẾT ĐƠN HÀNG</h3>
 			<div class="row">
                 <div class="col-lg-12" style="display: inline-flex; padding-top:50px">
                     <div class="col-lg-4">
@@ -69,10 +69,10 @@ td, th {
             </div>
             <div class="row" style="padding-top:50px">
                 <div class="col-lg-12">
-                    <h5>Danh sách sản phẩm</h5>
+                    <h5 style="color: #ff4e00">Danh sách sản phẩm</h5>
                     <table style="width:1060px; margin-top:20px; margin-bottom: 20px">
                     <thead>
-                    <tr style="background-color: #9a9a9a">
+                    <tr style="background-color: #ff4e00; color: #fff;">
                         <th>Tên sách</th>
                         <th>Ảnh bìa</th>
                         <th>Tác giả</th>

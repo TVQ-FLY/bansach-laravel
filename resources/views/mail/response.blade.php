@@ -1,10 +1,10 @@
 <div>
     <p>Dear anh/chị,</p>
 
-    <p>N&T Store đã nhận được thư của anh/chị.<br />
+    <p>HRT Books đã nhận được thư của anh/chị.<br />
         Chúng tôi sẽ liên lạc với anh/chị trong thời gian sớm nhất.</p>
 
-    <p>N&T Store..!!</p>
+    <p>HRT Books..!!</p>
     <p>Trân trọng,</p>
     <table cellpadding="0" cellspacing="0" class="sc-gPEVay eQYmiW"
         style="vertical-align: -webkit-baseline-middle; font-size: medium; font-family: &quot;Courier New&quot;; min-width: 450px;">
@@ -19,7 +19,7 @@
                             Lý</span></p>
                     <p color="#000000" font-size="medium" class="sc-dVhcbM fghLuF"
                         style="margin: 0px; font-weight: 500; color: rgb(0, 0, 0); font-size: 14px; line-height: 22px;">
-                        <span>WebSite</span><span>&nbsp;|&nbsp;</span><span>N&amp;T Books Store</span></p>
+                        <span>WebSite</span><span>&nbsp;|&nbsp;</span><span>HRT Books</span></p>
                 </td>
             </tr>
             <tr>

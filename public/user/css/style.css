@@ -48,17 +48,6 @@ table tr td {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* End teamolate layout */
 
 
@@ -70,7 +59,7 @@ table tr td {
 
 a:hover {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     border-radius: 0px;
 }
 
@@ -1618,6 +1607,7 @@ footer {
 .phone {
 	margin-top: 20px;
 }
+
 
 .contact-info h4 {
 	font-style: normal;

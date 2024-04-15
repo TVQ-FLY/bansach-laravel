@@ -31,6 +31,6 @@ class Mailxacnhan extends Mailable
     {
         return $this->from('kq909981@gmail.com')
            ->view('mail.xacnhan')
-           ->subject('Thông Báo N&T Store');
+           ->subject('Thông Báo HRT Books');
     }
 }

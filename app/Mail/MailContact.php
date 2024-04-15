@@ -31,6 +31,6 @@ class MailContact extends Mailable
     {
         return $this->from('kq909981@gmail.com')
            ->view('mail.contact')
-           ->subject('Liên hệ N&T Store');
+           ->subject('Liên hệ HRT Books');
     }
 }

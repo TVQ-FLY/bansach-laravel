@@ -582,6 +582,7 @@ span.money {
 
 .link-product-add-cart:hover {
     background: #ffffff;
+	border: 2px solid #ff4e00;
     color: #000000;
 }
 
