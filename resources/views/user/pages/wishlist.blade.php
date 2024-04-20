@@ -78,7 +78,7 @@
                             <button class="btn btn-danger" onclick="DeleteFavorite({{$favoritebook->id}})">Xóa</button>
                         </td>
                         <td>
-                            <a class="btn btn-primary" href="{{ route('user.single', $favoritebook->id)}}">Xem chi tiết</a>
+                            <a class="btn btn-primary" href="{{ route('user.single', $favoritebook->IdSach)}}">Xem chi tiết</a>
                         </td>
                     </tr>
                     @endforeach
