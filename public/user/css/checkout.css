@@ -33,7 +33,7 @@ table.timetable_sub {
 }
 
 .timetable_sub th {
-	background: #212121;
+	background: #ff4e00;
 	color: #fff !important;
 	text-transform: capitalize;
 	font-size: 13px;
@@ -213,7 +213,7 @@ td.invert-image a img {
 
 .checkout-right-basket a:hover {
 	background: #ff4e00;
-	color: #000;
+	color: #ffffff;
 }
 
 .checkout-right-basket a span {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Arsha Bootstrap Template - Index</title>
+  <title></title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -47,23 +47,23 @@
           <div class="content">
             <h3>HRT Books<br><strong>BOOK STORE TOP MỘT VIỆT NAM</strong></h3>
             <p>
-              Tự hào là đơn vị tiên phong trong việc đưa tri thức đi khắp nơi trên dải đất hình chữ s
+              Tự hào là đơn vị tiên phong trong việc đưa tri thức đi khắp nơi trên dải đất hình chữ s<br>
             </p>
           </div>
   
           <div class="accordion-list">
             <ul>
               <li>
-                <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Cung cấp phong phú, đa dạng các đầu sách ! <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Cung cấp phong phú, đa dạng các đầu sách ! <i class="bx bx-chevron-down icon-show"></i></i></a>
+                <!-- <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                   <p>
                     Với hàng trăm, hàng ngàn đầu sách của đa dạng các tác giả trên toàn thế giới, HRT Books có khả năng đáp ứng mọi nhu cầu tìm kiếm của người đọc.
                   </p>
-                </div>
+                </div> -->
               </li>
   
               <li>
-                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Số lượng chi nhánh phủ sóng 63 tỉnh thành phố <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Số lượng chi nhánh phủ sóng 63 tỉnh thành phố </i></a>
                 <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                   <p>
                     Với những nỗ lực không ngừng nghỉ, hiện nay HRT Books đã có mặt và phủ sóng xuyên suốt 63 tỉnh thành phố giúp người đọc ở mọi nơi có thể tìm đến một cách dễ dàng.
@@ -72,7 +72,7 @@
               </li>
   
               <li>
-                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Chữ Tín được đặt lên hàng đầu <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Chữ Tín được đặt lên hàng đầu </i></a>
                 <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                   <p>
                     HRT Books nói không với các sản phẩm sách kém chất lượng, sách lậu,... đặt sự yên tâm khi chọn mua sách của người đọc lên hàng đầu.
@@ -135,7 +135,7 @@
 
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -164,8 +164,8 @@
           </div>
         </div>
 
-      </div>
-    </section><!-- End About Us Section -->
+      </div> -->
+    <!-- </section>End About Us Section -->
 
 
     <!-- ======= Skills Section =======
@@ -226,40 +226,42 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Bảo Mật</h2>
+          <p>
+            HRT Books coi trọng việc bảo vệ thông tin cá nhân của khách hàng và cam kết cung cấp một môi trường mua sắm trực tuyến an toàn và đáng tin cậy.<br>
+            Dưới đây là một số biện pháp bảo mật mà HRT Books thực hiện để đảm bảo an ninh cho trang web của chúng tôi:</p>
         </div>
 
         <div class="row">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="">Mã hóa SSL/TLS</a></h4>
+              <p>HRT Books sử dụng mã hóa SSL/TLS để bảo vệ thông tin giao tiếp giữa máy chủ và người dùng. Điều này đảm bảo rằng dữ liệu nhạy cảm như thông tin thanh toán và thông tin cá nhân được bảo vệ an toàn trong quá trình truyền tải.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Quản lý mật khẩu an toàn</a></h4>
+              <p>HRT Books yêu cầu người dùng sử dụng mật khẩu mạnh và mã hóa mật khẩu trong cơ sở dữ liệu để đảm bảo an toàn tuyệt đối cho thông tin đăng nhập của họ.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">Quản lý phiên làm việc (Session Management)</a></h4>
+              <p>Hijacking, HRT Books thực hiện các biện pháp quản lý phiên làm việc chặt chẽ và sử dụng các kỹ thuật như CSRF (Cross-Site Request Forgery) token để bảo vệ người dùng.</p>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">Sao lưu dữ liệu định kỳ</a></h4>
+              <p>HRT Books thường xuyên thực hiện sao lưu dữ liệu để đảm bảo rằng họ có thể khôi phục dữ liệu trong trường hợp có sự cố hoặc mất dữ liệu.</p>
             </div>
           </div>
 
@@ -274,132 +276,20 @@
 
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Chào mừng bạn đến với HRT Books<br><br></h3>
+            <p> Tại HRT Books, chúng tôi không chỉ là một cửa hàng sách trực tuyến thông thường, mà còn là một cộng đồng đam mê sách, nơi mà mọi người có thể khám phá và chia sẻ sự đam mê với văn hóa đọc. Với một bộ sưu tập đa dạng từ các thể loại sách, từ tiểu thuyết đến khoa học, kinh doanh, tự trợ và nhiều hơn nữa, chúng tôi cam kết mang đến cho bạn những trải nghiệm đọc sách tuyệt vời nhất.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Xem Thêm</a>
           </div>
         </div>
 
       </div>
     </section><!-- End Cta Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="css-layout/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="css-layout/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="css-layout/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="css-layout/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="css-layout/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="css-layout/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="css-layout/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="css-layout/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="css-layout/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="css-layout/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <!-- <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -480,61 +370,61 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Khuyến Mãi</h2>
+          <p>Dưới đây là một số khuyến mãi mà HRT Books có thể cung cấp khi mua sách theo từng mức tiền:</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="box">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span>per month</span></h4>
+              <h3>Mua trên</h3>
+              <h4>500.000 VNĐ</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+                <li><i class="bx bx-check"></i>  Miễn phí vận chuyển cho đơn hàng có giá trị từ 500,000 VND trở lên.</li>
+                <li><i class="bx bx-check"></i> Tiết kiệm chi phí vận chuyển khi mua số lượng sách lớn</li>
+                <!-- <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li> -->
+                <!-- <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li> -->
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn">Mua Ngay</a>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box featured">
-              <h3>Business Plan</h3>
-              <h4><sup>$</sup>29<span>per month</span></h4>
+              <h3>Giảm giá 10% cho đơn hàng trên</h3>
+              <h4>1.000.000 VNĐ</span></h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="bx bx-check"></i> Đối với những đơn hàng có giá trị từ 1,000,000 VND trở lên, bạn sẽ được hưởng mức giảm giá 10%.</li>
+                <li><i class="bx bx-check"></i> Tiết kiệm hơn khi mua nhiều sách cùng một lúc.</li>
+                <!-- <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
                 <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li> -->
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn">Mua Ngay</a>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
-              <h3>Developer Plan</h3>
-              <h4><sup>$</sup>49<span>per month</span></h4>
+              <h3>Mua 3 sách trở lên, giảm giá</h3>
+              <h4>5 %</h4>
               <ul>
-                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="bx bx-check"></i> Nếu bạn mua 3 cuốn sách trở lên trong một đơn hàng, bạn sẽ được giảm giá 5% cho toàn bộ đơn hàng.</li>
+                <li><i class="bx bx-check"></i> Khuyến khích việc mua sắm số lượng lớn và đa dạng các tác phẩm.</li>
+                <!-- <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
                 <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li> -->
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#" class="buy-btn">Mua Ngay</a>
             </div>
           </div>
 

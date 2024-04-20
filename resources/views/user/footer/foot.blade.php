@@ -411,7 +411,7 @@
 						//alertify.alert(data);
 						//$(".count").html(data);
 						toastr.success('Cập nhật thành công');
-						setTimeout(function(){ 	location.reload(); }, 2000);
+						setTimeout(function(){ 	location.reload(); }, 40000);
 
 						//aletify.success(data);
                     }

@@ -74,7 +74,7 @@
 		<div class="container-fluid">
 			@include('user/layout/content')
 			<div class="inner-sec-shop px-lg-4 px-3">
-				<h3 class="tittle-w3layouts my-lg-4 my-4 text-center fw-bold text-danger" id="contact">Sách Mới Cho Bạn </h3>
+				<h3 class="tittle-w3layouts my-lg-4 my-4 text-center fw-bold text-danger" id="contact">SÁCH MỚI CHO BẠN</h3>
 				<div class="row">
 					<!-- Sách mới -->
 					@foreach($sach_moi_nhat as $books)

@@ -456,12 +456,16 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
-  transition: all ease-in-out 0.4s;
+  transition: 0.5s;
   background: #fff;
 }
 
+.services .icon-box:hover{
+  box-shadow: 0 0 12px #000000;
+  transform: scale(1.1);
+}
 .services .icon-box .icon {
   margin-bottom: 10px;
 }
@@ -489,19 +493,21 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+/* .services .icon-box:hover {
   transform: translateY(-10px);
-}
+} */
 
 .services .icon-box:hover h4 a {
   color: #ff4e00;
+
+
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(226, 118, 76, 0.9), #e66a35), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -819,6 +825,12 @@ section {
   height: 100%;
   border-top: 4px solid #fff;
   border-radius: 5px;
+  transition: 0.5s;
+}
+
+.pricing .box:hover{
+  box-shadow: 0 0 12px #000000;
+  transform: scale(1.1);
 }
 
 .pricing h3 {

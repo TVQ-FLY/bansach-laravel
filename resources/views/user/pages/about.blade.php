@@ -61,7 +61,7 @@
 				</div>
 				
 				<!-- /grids -->
-				
+				@include('user/layout/content')
 			</div>
 		</div>
 	</section>
