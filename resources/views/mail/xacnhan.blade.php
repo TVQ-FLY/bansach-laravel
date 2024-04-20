@@ -1,14 +1,14 @@
 <div>
     <p>Dear anh/chị,</p>
 
-    <p>N&T Store xin chân thành cảm ơn anh/chị đã đặt hàng.<br />
+    <p>HRT Books xin chân thành cảm ơn anh/chị đã đặt hàng.<br />
     <p>Link Thanh Toán: {{ $data['URL'] }}</p>
     <p>Tên Khách Hàng: {{ $data['tenkh'] }}</p>
     <p>Mã Đơn Hàng: {{ $data['madh'] }}</p>
     <p>Tổng Tiền: {{ $data['vnp_Amount'] }} VND</p>
     Chúng tôi sẽ gửi hàng trong thời gian sớm nhất.</p>
 
-    <p>N&T Store..!!</p>
+    <p>HRT Books..!!</p>
     <p>Trân trọng,</p>
     <table cellpadding="0" cellspacing="0" class="sc-gPEVay eQYmiW"
     style="vertical-align: -webkit-baseline-middle; font-size: medium; font-family: &quot;Courier New&quot;; min-width: 450px;">

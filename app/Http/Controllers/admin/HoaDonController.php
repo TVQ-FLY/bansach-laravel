@@ -454,7 +454,7 @@ class HoaDonController extends Controller
   <div class="add-detail mt-10">
       <div class="w-50 float-left mt-10">
           <p class="m-0 pt-5 text-bold w-100">Số Hóa Đơn - <span class="gray-color">#'.$order->id.'</span></p>
-          <p class="m-0 pt-5 text-bold w-100">Nhà Bán Hàng: N&T Books Store  <span class="gray-color"></span></p>
+          <p class="m-0 pt-5 text-bold w-100">Nhà Bán Hàng: HRT Books  <span class="gray-color"></span></p>
           <p class="m-0 pt-5 text-bold w-100">Ngày Lập - <span class="gray-color">'.Carbon::createFromFormat ('Y-m-d',$order->NgayLap).'</span></p>
       
       </div>

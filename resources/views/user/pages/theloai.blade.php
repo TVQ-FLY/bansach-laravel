@@ -115,14 +115,14 @@
 						<div class="left-ads-display col-lg-9">
 							<div class="wrapper_top_shop">
 								<div class="row">
-										<div class="col-md-6 shop_left">
+										<!-- <div class="col-md-6 shop_left">
 												<img src="{!! asset('user\images\Book\SACH_KINH_TE\banner_Sach_kinh_te1.png') !!}" alt="">
 												
 										</div>
 										<div class="col-md-6 shop_right">
 												<img src="{!! asset('user\images\Book\SACH_KINH_TE\banner_Sach_kinh_te1.png') !!}" alt="">
 									
-											</div>
+											</div> -->
 						
 								</div>
 								<div class="row">
@@ -148,7 +148,7 @@
 																	<a href="{{route('user.single',$books->id)}}">{{$books['TenSach']}}</a>
 																</h4>
 																<div class="grid-price mt-2">
-																	<span class="money ">{{number_format($books['GiaTien'],0,",",",")}} VND</span>
+																	<span class="money ">Giá: {{number_format($books['GiaTien'],0,",",",")}} VND</span>
 																</div>
 															</div>
 															
@@ -172,6 +172,12 @@
 														</div>
 														@endif
 													</div>
+													<div class="googles single-item hvr-outline-out">
+														<form action="" method="POST">
+															{{csrf_field()}}
+															<button type="button" class="btn btn-primary mt-2 mb-2"><a href="{{route('user.single',$books->id)}}">Mua Ngay</a></button>								
+														</form>
+														</div>
 													<div class="clearfix"></div>
 												</div>
 												

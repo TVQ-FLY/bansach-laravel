@@ -33,9 +33,9 @@
 						<div class="col-lg-6 about-info">
 							<h3 class="tittle-w3layouts text-left mb-lg-5 mb-3">Về chúng tôi</h3>
 							<div class="article-content"><p>
-								<p><strong>Tại sao bạn nên chọn N&T Books?</strong></p>
+								<p><strong>Tại sao bạn nên chọn HRT Books?</strong></p>
 								
-								<p><span style="font-weight: 400;">100% nội dung trên N&T Books là nội dung có bản quyền. N&T Books cam kết là nhà cung cấp dịch vụ và đối tác uy tín của bạn, hoạt động vì quyền lợi và sự phát triển bền vững của các bên.</span></p>
+								<p><span style="font-weight: 400;">100% nội dung trên HRT Books là nội dung có bản quyền. HRT Books cam kết là nhà cung cấp dịch vụ và đối tác uy tín của bạn, hoạt động vì quyền lợi và sự phát triển bền vững của các bên.</span></p>
 								
 								<p><strong><em>Đối với Độc giả:</em></strong></p>
 								<p>&nbsp; &nbsp; &nbsp; + Đọc cả kho sách điện tử giá trị chỉ với chi phí tiết kiệm.</p>

@@ -111,7 +111,7 @@
     									</div>
     									<div class="col-sm-9">
 											<span>Địa điểm giao hàng </span>
-											<a href="#"> Thay đổi</a>
+											<a href="/quan-ly-tai-khoan"> Thay đổi</a>
 							
     									</div>
   										</div>

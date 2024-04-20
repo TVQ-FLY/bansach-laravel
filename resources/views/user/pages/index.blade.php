@@ -22,45 +22,45 @@
 		@foreach($slideshow2 as $slideshows)
 		<div class="carousel-item item2"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}" class="img-fluid" alt="">">
 		<div class="carousel-caption text-center">
-			<h3>Với N&T
+			<h3>Với HRT
 				<span>Kiến Thức Là Vô Tận</span>
 			</h3>
 			<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
 			
 		</div>
 	</div>
-	@endforeach
-	@foreach($slideshow3 as $slideshows)
-	<div class="carousel-item item3"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}">
-	<div class="carousel-caption text-center">
-							<h3>Đến Với N&T
-								<span>Chúng Tôi Sẽ Cho Bạn Dịch Vụ Tốt Nhất</span>
-							</h3>
-							<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
+		@endforeach
+		<!-- @foreach($slideshow3 as $slideshows)
+		<div class="carousel-item item3"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}">
+		<div class="carousel-caption text-center">
+								<h3>Đến Với HRT
+									<span>Chúng Tôi Sẽ Cho Bạn Dịch Vụ Tốt Nhất</span>
+								</h3>
+								<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
 
+							</div>
 						</div>
-					</div>
-					@endforeach
-					@foreach($slideshow4 as $slideshows)
-					<div class="carousel-item item5"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}"
-						<div class="carousel-caption text-center">
-							<!-- <h3>Đồng Hành Cùng N&T
-								<span>Trở Lại Trường Sau Mùa Hè</span>
-							</h3>
-							<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a> -->
+						@endforeach -->
+						<!-- @foreach($slideshow4 as $slideshows)
+						<div class="carousel-item item5"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}"
+							<div class="carousel-caption text-center"> -->
+								<!-- <h3>Đồng Hành Cùng N&T
+									<span>Trở Lại Trường Sau Mùa Hè</span>
+								</h3>
+								<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a> -->
+							<!-- </div>
 						</div>
-					</div>
-					@endforeach
-					@foreach($slideshow5 as $slideshows)
+					@endforeach -->
+					<!-- @foreach($slideshow5 as $slideshows)
 					<div class="carousel-item item4"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}"
 						<div class="carousel-caption text-center">
-							<h3>Đồng Hành Cùng N&T
+							<h3>Đồng Hành Cùng HRT
 								<span>Trở Lại Trường Sau Mùa Hè</span>
 							</h3>
 							<a href="{{ route('user.shop')}}" class="btn btn-sm animated-button gibson-three mt-4">Đến Cửa Hàng</a>
 						</div>
 					</div>
-					@endforeach
+					@endforeach -->
 				</div>
 			
 			</div>

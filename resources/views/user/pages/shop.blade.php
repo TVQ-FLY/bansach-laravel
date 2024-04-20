@@ -116,15 +116,14 @@
 						<div class="left-ads-display col-lg-9">
 							<div class="wrapper_top_shop">
 								<div class="row">
-										<div class="col-md-6 shop_left">
-												<img src="{!! asset('user\images\Book\SACH_KINH_TE\banner_Sach_kinh_te1.png') !!}" alt="">
+										<!-- <div class="col-md-6 shop_left">
+											<img src="{!! asset('user\images\Book\SACH_KINH_TE\banner_Sach_kinh_te1.png') !!}" alt="">
 												
 										</div>
 										<div class="col-md-6 shop_right">
-												<img src="{!! asset('user\images\Book\SACH_KINH_TE\banner_Sach_kinh_te1.png') !!}" alt="">
+											<img src="{!! asset('user\images\Book\SACH_KINH_TE\banner_Sach_kinh_te1.png') !!}" alt="">
 									
-											</div>
-						
+										</div> -->
 								</div>
 								<div class="row">
 									<!-- /womens -->

@@ -6,7 +6,7 @@
 						<h3>Về chúng tôi</h3>
 					</div>
 					<div class="footer-text">
-						<p>N&T được thành lập vào năm 2024 nhằm đem đến cho bạn nguồn tri thức vô tận từ những quyển sách được viết từ những tác giả nổi tiếng. Được phục vụ cho bạn đó là niềm vinh hạnh của chúng tôi.</p>
+						<p>HRT Books được thành lập vào năm 2024 nhằm đem đến cho bạn nguồn tri thức vô tận từ những quyển sách được viết từ những tác giả nổi tiếng. Được phục vụ cho bạn đó là niềm vinh hạnh của chúng tôi.</p>
 						<ul class="footer-social text-left mt-lg-4 mt-3">
 
 							<li class="mx-2">

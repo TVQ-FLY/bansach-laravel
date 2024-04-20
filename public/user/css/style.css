@@ -887,10 +887,10 @@ a.shop:hover {
 /*--about --*/
 
 h4.tittle-w3layouts {
-    color: #353434;
+    color: #000000;
     font-size: 2em;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.14);
 }
 
@@ -2527,6 +2527,10 @@ button.googles-heart {
 }
 .wishlist {
     color: #ffffff;
+}
+
+.wishlist:hover {
+    color: #000000;
 }
 .required{
     box-shadow: 0 0 0 2px red !important;
