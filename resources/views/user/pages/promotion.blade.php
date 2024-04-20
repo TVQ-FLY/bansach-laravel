@@ -139,7 +139,13 @@
 														</div>
 														@endif
 													</div>
-													<div class="clearfix"></div>
+													<div class="googles single-item hvr-outline-out">
+													<form action="" method="POST">
+														{{csrf_field()}}
+														<button type="button" class="btn btn-primary mt-2 mb-2"><a href="{{route('user.single',$books->id)}}">Mua Ngay</a></button>								
+													</form>
+													</div>
+												<div class="clearfix"></div>
 												</div>
 												
 											</div>

@@ -2521,12 +2521,16 @@ div#search_ajax {
     display: flex;
 }
 button.googles-heart {
-    border: 1px solid #ff4e00;
+    /* border: 1px solid #ff4e00; */
+    color: #000;
+    border: none;
     padding-top: 10px;
-    background-color: #ff4e00;
+    /* background-color: #ff4e00; */
+    background-color: #ffffff;
 }
 .wishlist {
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #ff4e00;
 }
 
 .wishlist:hover {

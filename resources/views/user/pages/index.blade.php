@@ -104,24 +104,30 @@
 										</div>
 										<!-- Thêm vào giỏ hàng -->
 										@if (session()->has('infoUser') != null)
-														<div class="googles single-item hvr-outline-out">
-														<form action="" method="POST">
-															{{csrf_field()}}
-															<button type="button" class="googles-cart pgoogles-cart" onclick="AddCart({{ $books->id }})">
-																<i class="fas fa-cart-plus"></i>
-															</button>								
-														</form>
-														</div>
-														<div class="googles single-item hvr-outline-out" style="">
-															<form>
-															{{ csrf_field() }}
-																<button type="button" class="googles-heart" onclick="Favorite({{ $books->id }})">
-																   <a class="wishlist" href=""><i class="fas fa-heart"></i></a>	
-																</button>	
-															</form>
-														</div>
-														@endif
+										<div class="googles single-item hvr-outline-out">
+										<form action="" method="POST">
+											{{csrf_field()}}
+											<button type="button" class="googles-cart pgoogles-cart" onclick="AddCart({{ $books->id }})">
+												<i class="fas fa-cart-plus"></i>
+											</button>								
+										</form>
+										</div>
+										<div class="googles single-item hvr-outline-out" style="">
+											<form>
+											{{ csrf_field() }}
+												<button type="button" class="googles-heart" onclick="Favorite({{ $books->id }})">
+													<a class="wishlist" href=""><i class="fas fa-heart"></i></a>	
+												</button>	
+											</form>
+										</div>
+										@endif
 									</div>
+									<div class="googles single-item hvr-outline-out">
+										<form action="" method="POST">
+											{{csrf_field()}}
+											<button type="button" class="btn btn-primary mt-2 mb-2"><a href="{{route('user.single',$books->id)}}">Mua Ngay</a></button>								
+										</form>
+										</div>
 									<div class="clearfix"></div>
 								</div>
 							</div>

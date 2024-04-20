@@ -496,8 +496,8 @@ p.sbmincart-empty-text {
 }
 
 span.money {
-	font-size: 15px;
-	color: #ffffff;
+	font-size: 20px;
+	color: #000000;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
@@ -607,18 +607,20 @@ ul.stars li a i:hover {
 
 .product-googles-info {
 	padding: 10px;
-	margin: 10px 0px;
+	margin: 20px 5px;
 	min-height: 500px;
-	border: 2px solid #ff4e00;
-	border-radius: 15px;
-	background-color: #ff4e00;
+	/* border: 3px solid #ff4e00; */
+	/* border-radius: 20px; */
+	/* background-color: #ff4e00; */
 	transition: 0.5s;
+	box-shadow: 0 3px 20px -2px #000;
+	/* box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1); */
 }
 
 .product-googles-info:hover{
 	transform: scale(1.1);
 	/* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); */
-	box-shadow:  5px 8px 16px 0px #696666;
+	box-shadow:  0 0 12px #000000;
 }
 
 /*-- //effect on products --*/
@@ -917,8 +919,9 @@ input.checked {
 }
 
 .product_price h4 a {
-	color: #ffffff;
-    font-size: 23px;
+	color: #000000;
+	min-height: 75px;
+    font-size: 20px;
 	line-height: 25px;
 	-webkit-line-clamp: 2;
     overflow: hidden;
@@ -1029,14 +1032,14 @@ span.item_price {
 }
 
 .grid_meta {
-	float: left;
+	/* float: left; */
 	width: 90%;
 	text-align: left;
 }
 
 button.googles-cart {
 	font-size: 1.4em;
-	color: #ffffff;
+	color: #ff4e00;
 	border: none;
 	text-align: center;
 	border-left: none !important;
