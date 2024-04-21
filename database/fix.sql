@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th4 20, 2024 lúc 05:50 AM
+-- Thời gian đã tạo: Th4 21, 2024 lúc 01:42 AM
 -- Phiên bản máy phục vụ: 8.0.30
 -- Phiên bản PHP: 8.1.10
 
@@ -82,7 +82,8 @@ INSERT INTO `chitiethoadonban` (`id`, `IdSach`, `IdHoaDB`, `SoLuong`, `GiaBan`, 
 (25, 30, 26, 1, 146780, '2024-04-18 20:17:52', '2024-04-18 20:17:52'),
 (26, 30, 27, 1, 146780, '2024-04-18 20:18:27', '2024-04-18 20:18:27'),
 (27, 31, 28, 1, 123000, '2024-04-18 20:29:27', '2024-04-18 20:29:27'),
-(28, 51, 29, 1, 35100, '2024-04-18 20:30:27', '2024-04-18 20:30:27');
+(28, 51, 29, 1, 35100, '2024-04-18 20:30:27', '2024-04-18 20:30:27'),
+(29, 78, 30, 1, 27000, '2024-04-20 18:20:16', '2024-04-20 18:20:16');
 
 -- --------------------------------------------------------
 
@@ -124,7 +125,9 @@ INSERT INTO `giohang` (`id`, `Id_Sach`, `Id_TK`, `So_Luong`, `TrangThai`, `creat
 (27, 155, 14, 1, 0, '2024-10-11 04:52:56', '2024-10-11 04:55:43'),
 (28, 155, 13, 1, 1, '2024-11-17 17:47:54', '2024-11-17 17:47:54'),
 (25, 153, 13, 1, 0, '2024-10-11 04:34:07', '2024-10-11 04:37:58'),
-(29, 2, 13, 1, 1, '2024-04-19 22:37:14', '2024-04-19 22:37:14');
+(29, 2, 13, 1, 1, '2024-04-19 22:37:14', '2024-04-19 22:37:14'),
+(30, 153, 13, 1, 1, '2024-04-20 18:10:38', '2024-04-20 18:10:38'),
+(31, 78, 13, 2, 1, '2024-04-20 18:11:37', '2024-04-20 18:11:47');
 
 -- --------------------------------------------------------
 
@@ -156,7 +159,8 @@ INSERT INTO `hoadonban` (`id`, `IdKH`, `NgayLap`, `DiaChiGH`, `SDT`, `TongTien`,
 (26, 13, '2024-04-19', 'xã Diễn Thái, huyện Diễn Châu, tỉnh Nghệ An', '0368835167', 161780, NULL, 2, 1, '2024-04-18 20:17:52', '2024-04-18 20:17:52'),
 (27, 13, '2024-04-19', 'xã Diễn Thái, huyện Diễn Châu, tỉnh Nghệ An', '0368835167', 161780, NULL, 2, 1, '2024-04-18 20:18:27', '2024-04-18 20:18:27'),
 (28, 13, '2024-04-19', 'xã Diễn Thái, huyện Diễn Châu, tỉnh Nghệ An', '0368835167', 138000, NULL, 1, 1, '2024-04-18 20:29:27', '2024-04-18 20:29:27'),
-(29, 13, '2024-04-19', 'xã Diễn Thái, huyện Diễn Châu, tỉnh Nghệ An', '0368835167', 50100, NULL, 2, 1, '2024-04-18 20:30:27', '2024-04-18 20:30:27');
+(29, 13, '2024-04-19', 'xã Diễn Thái, huyện Diễn Châu, tỉnh Nghệ An', '0368835167', 50100, NULL, 2, 1, '2024-04-18 20:30:27', '2024-04-18 20:30:27'),
+(30, 13, '2024-04-21', 'xã Diễn Thái, huyện Diễn Châu, tỉnh Nghệ An', '0937653620', 42000, NULL, 1, 1, '2024-04-20 18:20:15', '2024-04-20 18:20:15');
 
 -- --------------------------------------------------------
 
@@ -255,7 +259,7 @@ INSERT INTO `kho` (`id`, `IdSach`, `SoLuongTon`, `Xoa`, `created_at`, `updated_a
 (75, 75, 100, 0, '2024-03-06 23:58:14', '2024-03-06 23:58:14'),
 (76, 76, 100, 0, '2024-03-06 23:58:32', '2024-03-06 23:58:32'),
 (77, 77, 100, 0, '2024-03-06 23:58:47', '2024-03-06 23:58:47'),
-(78, 78, 83, 0, '2024-03-06 23:58:59', '2024-07-12 21:39:07'),
+(78, 78, 82, 0, '2024-03-06 23:58:59', '2024-04-20 18:20:16'),
 (79, 79, 99, 0, '2024-03-06 23:59:16', '2024-06-20 07:41:48'),
 (80, 80, 100, 0, '2024-03-06 23:59:47', '2024-03-06 23:59:47'),
 (81, 81, 97, 0, '2024-03-07 00:00:02', '2024-05-27 20:07:11'),
@@ -776,9 +780,9 @@ INSERT INTO `sach` (`id`, `TenSach`, `AnhSach`, `NhaXuatBan`, `DichGia`, `IdNCC`
 (154, 'Penbook – Luyện Đề Thi Tốt Nghiệp THPT Quốc Gia Môn Toán 2024', '1646240615.jpg', 20, 2, 37, '0', 410, 14, 2021, 195750, 'Penbook – Luyện Đề Thi Tốt Nghiệp THPT Quốc Gia Môn Toán 2024\r\n\r\n1. Định nghĩa\r\n\r\nPENBOOK – Luyện Đề Thi Tốt Nghiệp THPT bộ sách luyện thi THPT QG giúp học sinh rèn phương pháp, luyện kĩ năng làm bài thông qua hệ thống đề thi sau quá trình trang bị và ôn ', 1, 2, 0, '2024-03-02 10:03:35', '2024-07-16 05:23:18'),
 (155, 'Sketch Test Luyện Đề THPTQG 2020 - Môn Toán', '1646240722.jpg', 11, 1, 37, '0', 292, 9, 2020, 15000, 'Như tất cả các bạn học sinh đều biết, phương pháp học tư duy trực quan chính là phương pháp học được đánh giá hiệu quả nhất hiện nay, bởi nó có thể giúp các bạn nhớ lâu, nhớ 1 cách rõ ràng và hệ thống.\r\n\r\nVậy nếu muốn quá trình học của các bạn đạt hiệu qu', NULL, 2, 0, '2024-03-02 10:05:22', '2024-04-22 08:18:59'),
 (163, 'Ra Bờ Suối Ngắm Hoa Kèn Hồng', '1657677015.jpg', 1, 19, 2, '2', 272, 12, 2024, 150000, 'Ra Bờ Suối Ngắm Hoa Kèn Hồng\r\n\r\nRa bờ suối ngắm hoa kèn hồng là tác phẩm trong trẻo, tràn đầy tình yêu thương mát lành, trải ra trước mắt người đọc khu vườn trại rực rỡ cỏ hoa của vùng quê thanh bình, kèm theo đó là những “nhân vật” đáng yêu, làm nên một “thế giới giàu có, rộng lớn và vô cùng hấp dẫn” mà dường như người lớn đã bỏ quên đâu đó từ lâu.', 1, 2, 0, '2024-07-12 18:50:15', '2024-07-12 18:55:19'),
-(166, 'luyện thi', '1658368765.jpg', 4, 14, 4, '2', 272, 2, 2024, 150000, 'Lorem', 3, 2, 0, '2024-07-20 18:59:25', '2024-07-20 18:59:25'),
+(166, 'luyện thi', '1658368765.jpg', 4, 14, 4, '2', 272, 2, 2024, 150000, 'Lorem', 3, 2, 1, '2024-07-20 18:59:25', '2024-04-20 18:23:04'),
 (167, 'Sách Giáo Khoa test', '1658792888.jpg', 2, 3, 2, '0', 10, 7, 2018, 250000, 'lorem shhsshsssssssssssssss shhhhhhhhhhhhhksjgshhd', NULL, 2, 1, '2024-07-26 06:48:08', '2024-07-26 06:50:38'),
-(168, 'Sách Giáo Khoa test', '1658793091.jpg', 3, 4, 3, '1', 10, 12, 2018, 250000, 'sách giáo khoa', 3, 2, 0, '2024-07-26 06:51:31', '2024-07-26 06:51:31');
+(168, 'Sách Giáo Khoa test', '1658793091.jpg', 3, 4, 3, '1', 10, 12, 2018, 250000, 'sách giáo khoa', 3, 2, 1, '2024-07-26 06:51:31', '2024-04-20 18:23:00');
 
 -- --------------------------------------------------------
 
@@ -808,7 +812,9 @@ INSERT INTO `sanphamyeuthich` (`id`, `IdSach`, `IdKH`, `TrangThai`, `created_at`
 (11, 31, 11, 0, '2024-07-20 05:28:58', '2024-07-20 05:28:58'),
 (12, 30, 12, 0, '2024-07-20 18:36:08', '2024-07-20 18:36:08'),
 (13, 153, 13, 0, '2024-10-11 04:41:33', '2024-10-11 04:41:33'),
-(14, 155, 14, 0, '2024-10-11 04:53:00', '2024-10-11 04:53:00');
+(14, 155, 14, 0, '2024-10-11 04:53:00', '2024-10-11 04:53:00'),
+(15, 146, 13, 0, '2024-04-20 18:10:03', '2024-04-20 18:10:03'),
+(16, 78, 13, 0, '2024-04-20 18:11:40', '2024-04-20 18:11:40');
 
 -- --------------------------------------------------------
 
@@ -1361,7 +1367,7 @@ ALTER TABLE `binhluan`
 -- AUTO_INCREMENT cho bảng `chitiethoadonban`
 --
 ALTER TABLE `chitiethoadonban`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT cho bảng `failed_jobs`
@@ -1373,13 +1379,13 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT cho bảng `giohang`
 --
 ALTER TABLE `giohang`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT cho bảng `hoadonban`
 --
 ALTER TABLE `hoadonban`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT cho bảng `kho`
@@ -1433,7 +1439,7 @@ ALTER TABLE `sach`
 -- AUTO_INCREMENT cho bảng `sanphamyeuthich`
 --
 ALTER TABLE `sanphamyeuthich`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT cho bảng `slideshow`
