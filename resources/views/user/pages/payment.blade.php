@@ -36,7 +36,7 @@ td, th {
             <h3>THANH TOÁN</h3>
             <div class="checkout-left row">
                 <div class="col-md-5 address_form">
-                    <div class="container-fluid" style="border:1px solid;">
+                    <div class="container-fluid" style="border:3px solid #ff4e00;">
                         <h4>Thông tin nhận hàng</h4>
                         <form action="#" method="post" class="creditly-card-form agileinfo_form">
                             @csrf
@@ -75,7 +75,7 @@ td, th {
                     </div>
                 </div>
                 <div class="col-md-7 address_form">
-                    <div class="container-fluid" style="border:1px solid; padding-bottom: 20px;">
+                    <div class="container-fluid" style="border:3px solid #ff4e00; padding-bottom: 20px;">
                        
                             <h4>Đơn hàng</h4>
                             <table class="timetable_sub">
