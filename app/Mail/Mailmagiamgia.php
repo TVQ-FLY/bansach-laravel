@@ -29,7 +29,10 @@ class Mailmagiamgia extends Mailable
      */
     public function build()
     {
-        return $this->from('kq909981@gmail.com')
+        // return $this->from('kq909981@gmail.com')
+        //    ->view('mail.mailmagiamgia')
+        //    ->subject('Liên hệ HRT Books');
+        return $this->from('tranvanquyenx4gmail.com')
            ->view('mail.mailmagiamgia')
            ->subject('Liên hệ HRT Books');
     }

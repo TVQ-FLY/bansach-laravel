@@ -28,7 +28,10 @@ class MailResponse extends Mailable
      */
     public function build()
     {
-        return $this->from('kq909981@gmail.com')
+        // return $this->from('kq909981@gmail.com')
+        //    ->view('mail.response')
+        //    ->subject('Liên hệ HRT Books');
+        return $this->from('tranvanquyenx4@gmail.com')
            ->view('mail.response')
            ->subject('Liên hệ HRT Books');
     }

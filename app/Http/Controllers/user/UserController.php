@@ -395,6 +395,7 @@ class UserController extends Controller
            return 'Đã gửi bình luận';
         }else return 'Có lỗi xảy ra';
     }
+  
     public function mailcontact(Request $request)
     {
         $data = [
@@ -402,11 +403,11 @@ class UserController extends Controller
             'email' => $request['Email'],
             'content' => $request['Content'],
         ];
-        Mail::to('kq909981@gmail.com')->send(new MailContact($data));
+        Mail::to('quyentranfly2k1@gmail.com')->send(new MailContact($data));
         //password tài khoản: a@123456
         Mail::to($request['Email'])->send(new MailResponse());
         return redirect()->back();
-        //return dd($data);
+        // return dd($data);
     }
     //
     public function addfavoritebook(Request $request)

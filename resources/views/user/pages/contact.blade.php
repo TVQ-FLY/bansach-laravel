@@ -30,10 +30,6 @@
 			<div class="inner_sec">
 				<p class="sub text-center mb-lg-5 mb-3">Chúng tôi luôn mong chờ những đóng góp của bạn.</p>
 
-
-
-
-
 				@include('user/layout/contact')
 				<!-- contact-->
 				<div class="contact_grid_right contact section-title" >

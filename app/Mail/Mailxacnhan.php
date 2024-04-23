@@ -29,7 +29,10 @@ class Mailxacnhan extends Mailable
      */
     public function build()
     {
-        return $this->from('kq909981@gmail.com')
+        // return $this->from('kq909981@gmail.com')
+        //    ->view('mail.xacnhan')
+        //    ->subject('Thông Báo HRT Books');
+        return $this->from('tranvanquyenx4@gmail.com')
            ->view('mail.xacnhan')
            ->subject('Thông Báo HRT Books');
     }
