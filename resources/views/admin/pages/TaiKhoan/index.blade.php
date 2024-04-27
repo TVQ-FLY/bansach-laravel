@@ -24,8 +24,8 @@
                   <div class="col-lg-6">
                   <form id="" method="POST" action="{{ route('taikhoan.search')}}" style="float:right">
                   @csrf
-                      <input style="padding: 0.5rem 1.5rem; border-radius: 10px; margin-left:1.55rem" type="text" name="bookName" placeholder="Nhập họ tên hoặc email" >                     
-                      <button id="btnsearch" class="btn-search" type="submit" style="padding: 0.5rem 1.5rem; border-radius: 10px;background:#a3a4a5c2"><i class='fas fa-search' style='font-size:15px'></i></button>
+                      <input style="padding: 0.5rem 1.5rem; border-radius: 10px; border-color: #ff4e00; margin-left:1.55rem" type="text" name="bookName" placeholder="Nhập họ tên hoặc email" >                     
+                      <button id="btnsearch" class="btn-search" type="submit" style="padding: 0.5rem 1.5rem; border-radius: 10px; border-color: #ff4e00; color: #fff; background:#ff4e00"><i class='fas fa-search' style='font-size:15px; padding: 5px 0;'></i></button>
                   </form>
                   </div>
                 </div>                  <!-- /.card-header -->
@@ -91,6 +91,9 @@ tr:hover{
             cursor:pointer;
         }
 .table{
-border: 1px solid #CED4DA;  
+text-align: center;
+align-item: center;
+min-width: 155%;
+border: 3px solid #ff4e00;  
 border-collapse: collapse; }
       </style>

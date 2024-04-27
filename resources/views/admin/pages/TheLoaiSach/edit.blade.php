@@ -33,6 +33,7 @@
                     <select style="border: 1px solid #CED4DA;border-radius: 4px; outline: none;" name="IdSach" class="form-control" id="IdSach" placeholder="Title">
                     @foreach($sach as $sachs)
                         <option value="{{$sachs->id}}">{{$sachs->TenSach}}</option>
+
                   @endforeach
                     </select>
                   </div>

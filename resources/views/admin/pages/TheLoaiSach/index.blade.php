@@ -27,6 +27,7 @@
                   <tr>
                     <th>Tên Sách</th>
                     <th>Tên Thể Loại</th>
+                    <th>Sửa / Xóa</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -73,6 +74,9 @@ tr:hover{
             cursor:pointer;
         }
 .table{
-border: 1px solid #CED4DA;  
+align-item: center;
+text-align: center;
+min-width: 250%;
+border: 3px solid #ff4e00;   
 border-collapse: collapse; }
       </style>

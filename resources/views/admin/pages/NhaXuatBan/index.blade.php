@@ -76,6 +76,9 @@ tr:hover{
             cursor:pointer;
         }
 .table{
-border: 1px solid #CED4DA;  
+text-align: center;
+align-item: center;
+min-width: 155%;
+border: 3px solid #ff4e00; 
 border-collapse: collapse; }
       </style>

@@ -24,15 +24,15 @@
                   <div class="col-lg-6">
                   <form id="" method="POST" action="{{ route('sach.search')}}" style="float:right">
                   @csrf
-                      <input style="padding: 0.5rem 1.5rem; border-radius: 10px; margin-left:1.55rem" type="text" name="bookName" placeholder="Nhập tên sách hoặc tác giả" >                     
-                      <button id="btnsearch" class="btn-search" type="submit" style="padding: 0.5rem 1.5rem; border-radius: 10px;background:#a3a4a5c2"><i class='fas fa-search' style='font-size:15px'></i></button>
+                      <input style="padding: 0.5rem 1.5rem; border-radius: 10px; border-color: #ff4e00;" type="text" name="bookName" placeholder="Nhập tên sách hoặc tác giả" >                     
+                      <button id="btnsearch" class="btn-search" type="submit" style="padding: 0.5rem 1.5rem; border-radius: 10px; border-color: #ff4e00; background:#ff4e00; color: #fff"><i class='fas fa-search' style='font-size:15px; padding: 5px 0;'></i></button>
                   </form>
                   </div>
                 </div>
                   <!-- /.card-header -->
                   <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                    <div class="card-body">
-                    <table id="book" class="table" broder="1"  >
+                    <div class="card-body" style="">
+                    <table id="book" class="table" broder="1" >
                   <thead>
                   <tr>
                     <th>Ảnh Bìa</th>
@@ -93,8 +93,11 @@ tr:hover{
             cursor:pointer;
         }
 .table{
-border: 1px solid #CED4DA;  
+align-item:center;
+text-align: center;
+min-width: 155%;
+border: 3px solid #ff4e00;  
 border-collapse: collapse; }
     
     
-      </style>
+</style>
