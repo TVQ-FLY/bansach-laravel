@@ -47,12 +47,12 @@
 												<li data-thumb="{!! asset('image/'.$books->AnhSach)!!}">
 													<div class="thumb-image"> <img src="{!! asset('image/'.$books->AnhSach)!!}" data-imagezoom="true" class="img-fluid" alt=" "> </div>
 												</li>
-												<li data-thumb="{!! asset('image/'.$books->AnhSach)!!}">
+												<!-- <li data-thumb="{!! asset('image/'.$books->AnhSach)!!}">
 													<div class="thumb-image"> <img src="{!! asset('image/'.$books->AnhSach)!!}" data-imagezoom="true" class="img-fluid" alt=" "> </div>
 												</li>
 												<li data-thumb="{!! asset('image/'.$books->AnhSach)!!}">
 													<div class="thumb-image"> <img src="{!! asset('image/'.$books->AnhSach)!!}" data-imagezoom="true" class="img-fluid" alt=" "> </div>
-												</li>
+												</li> -->
 											</ul>
 											<div class="clearfix"></div>
 										</div>
