@@ -179,7 +179,7 @@
     </div>
 @endif
 				<div class="group">
-					<input type="submit" class="button" value="Đăng Kí">
+					<input type="submit" class="button" value="Đăng Ký">
 				</div>
 				<div class="hr"></div>
 			</form>

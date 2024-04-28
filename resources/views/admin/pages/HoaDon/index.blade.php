@@ -102,6 +102,7 @@
               <!-- /.card-body -->
                 </div>
                 </div>
+
                 {{$hoadon->links()}}
             </div>
         </div>
