@@ -10,16 +10,16 @@
                   <h3 class="font-weight-bold">QUẢN LÝ ĐƠN HÀNG</h3>
                 </div>
                 <div class="sorting">
-							<select id="sort"  class="frm-field required sect">
-								<option value="null">Sắp xếp </option>
+							<!-- <select id="sort"  class="frm-field required sect"> -->
+								<!-- <option value="null">Sắp xếp </option> -->
 								<!-- <option value="null">Bán chạy nhất</option>  -->
-								<option value="{{Request::url()}}?sort_by=all">Tất cả đơn hàng</option> 
-								<option value="{{Request::url()}}?sort_by=new">Đơn hàng mới</option>					
-								<option value="{{Request::url()}}?sort_by=done">Đơn hàng đã duyệt</option>
-								<option value="{{Request::url()}}?sort_by=cancel">Đơn hàng đã hủy</option>
-								<option value="{{Request::url()}}?sort_by=move">Đơn hàng đang giao</option>	
-                <option value="{{Request::url()}}?sort_by=complete">Đơn hàng giao thành công</option>								
-							</select>
+								<!-- <option value="{{Request::url()}}?sort_by=all">Tất cả đơn hàng</option>  -->
+								<!-- <option value="{{Request::url()}}?sort_by=new">Đơn hàng mới</option>					 -->
+								<!-- <option value="{{Request::url()}}?sort_by=done">Đơn hàng đã duyệt</option> -->
+								<!-- <option value="{{Request::url()}}?sort_by=cancel">Đơn hàng đã hủy</option> -->
+								<!-- <option value="{{Request::url()}}?sort_by=move">Đơn hàng đang giao</option>	 -->
+                <!-- <option value="{{Request::url()}}?sort_by=complete">Đơn hàng giao thành công</option>								 -->
+							<!-- </select> -->
 						</div>
                 @if(Session::has('message'))
                 <div class="alert alert-success alert-dismissible fade show notify" role="alert">
