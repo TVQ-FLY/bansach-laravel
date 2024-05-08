@@ -15,7 +15,7 @@
                 <div class="col-12" style="padding-top:10px;">
                     <ul class="breadcrumb" style="border: none">
                       <li><a href="{{route('dashboard.index')}}">Dashboard</a></li><li>/</li>
-                      <li><a href="{{route('nhaxuatban.index')}}">Quản lý nhà xuất bản</a></li>
+                      <li><a href="{{route('nhaxuatban.index')}}">Quản lý nhà xuất bản</a></li><li>/</li>
                       <li>Sửa nhà xuất bản</li>
                     </ul>
                 </div>

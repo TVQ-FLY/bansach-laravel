@@ -10,12 +10,12 @@
         <div class="row">
             <div class="col-md-12" style="margin-left: 80px; padding-right:70px">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Sửa SÁCH</h3>
+                  <h3 class="font-weight-bold">SỬA SÁCH</h3>
                 </div>
                 <div class="col-12" style="padding-top:10px;">
                     <ul class="breadcrumb" style="border: none">
                       <li><a href="{{route('dashboard.index')}}">Dashboard</a></li><li>/</li>
-                      <li><a href="{{route('sach.index')}}">Quản lý sách</a></li>
+                      <li><a href="{{route('sach.index')}}">Quản lý sách</a></li><li>/</li>
                       <li>Sửa sách</li>
                     </ul>
                 </div>

@@ -59,7 +59,7 @@
                   <tr>
                     <td>{{$hoadons->TaiKhoan->HoTen}}</td>
                     <td>{{date('d-m-Y', strtotime( $hoadons->NgayLap))}}</td>
-                    <td style="max-width: 180px; text-overflow: ellipsis; overflow: hidden">{{$hoadons->DiaChiGH}}</td>
+                    <td style="max-width: 130px; text-overflow: ellipsis; overflow: hidden">{{$hoadons->DiaChiGH}}</td>
                     <td>{{$hoadons->SDT}}</td>
                     <td>{{ number_format($hoadons->TongTien,0,",",",") }}</td>
                     <td>

@@ -15,7 +15,7 @@
                 <div class="col-12" style="padding-top:10px;">
                     <ul class="breadcrumb" style="border: none">
                       <li><a href="{{route('dashboard.index')}}">Dashboard</a></li><li>/</li>
-                      <li><a href="{{route('kichthuoc.index')}}">Quản lý kích thước sách</a></li>
+                      <li><a href="{{route('kichthuoc.index')}}">Quản lý kích thước sách</a></li><li>/</li>
                       <li>Sửa kích thước sách</li>
                     </ul>
                 </div>

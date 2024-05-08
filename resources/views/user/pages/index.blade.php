@@ -150,7 +150,7 @@
 				 -->
 				<!--//Banner trang web-->
 				<div class="inner-sec-shop px-lg-4 px-3">
-					<h3 class="tittle-w3layouts my-lg-4 my-4">Sách Bán Chạy Nhất </h3>
+					<h3 class="tittle-w3layouts my-lg-4 my-4 text-center" style="color: #ff4e00;">Sách Bán Chạy Nhất </h3>
 					<div class="row">
 						<!-- Sách bán chạy -->
 						@foreach($result as $bestSellers1)
