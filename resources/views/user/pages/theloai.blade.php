@@ -10,7 +10,9 @@
 							<a href="{{route('user.index')}}" style="color: white">Trang Chủ</a>
 							<i>|</i>
 						</li>
-						<li>Sản Phẩm</li>
+						<li>Sản Phẩm <i>|</i></li>
+					
+						<li>{{$infoTheLoai ? $infoTheLoai->TenTheLoai : ''}}</li>
 					</ul>
 				</div>
 			</div>

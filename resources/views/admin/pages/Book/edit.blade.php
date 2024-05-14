@@ -113,14 +113,20 @@
                         <option value="{{$kichthuocs->id}}" {{ $KichThuoc == $kichthuocs->id ? 'selected="selected"' : '' }} >{{$kichthuocs->kichthuoc}}</option>
                     @endforeach
                     </select>
-                </div>
+                  </div>
                   <div class="col-lg-6" style=" margin-left:-1px">
                     <label for="exampleInputStatus">Trạng Thái</label>
                     <select style="border: 1px solid #CED4DA;border-radius: 4px; outline: none;" class="form-control" value="{{$sach->TrangThai}}" name="TrangThai" id="TrangThai" placeholder="Status">
-                        <option value="2">Còn hàng</option>
-                        <option value="0">Ngừng bán</option>
-                        <option value="1">Tạm hết hàng</option>                   
+                      <option value="2">Còn hàng</option>
+                      <option value="0">Ngừng bán</option>
+                      <option value="1">Tạm hết hàng</option>                   
                     </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <label for="exampleInputContent">Mô Tả</label>
+                    <textarea type="text" style="height:100px" class="form-control" name="MoTa" value="{{$sach->MoTa}}" id="MoTa" placeholder="{{$sach->MoTa}}"></textarea>
                   </div>
                 </div>
                 <div class="row" style="float:right">

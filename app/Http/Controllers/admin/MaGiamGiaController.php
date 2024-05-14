@@ -27,6 +27,8 @@ class MaGiamGiaController extends Controller
      */
     public function create()
     {
+       
+
         //
         return view('admin.pages.MaGiamGia.create');
     }

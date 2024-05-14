@@ -113,11 +113,6 @@
                     @endforeach
                     </select>
                   </div>
-                                    <div class="col-lg-12">
-                    <label for="exampleInputContent">Mô Tả</label>
-                    <textarea type="text" style="height:100px" class="form-control" name="MoTa" id="MoTa" placeholder="Nhập nội dung mô tả"></textarea>
-                  </div>
-                </div>
                   <div class="col-lg-6" style=" margin-left:-12px">
                     <label for="exampleInputStatus">Trạng Thái</label>
                     <select style="border: 1px solid #CED4DA;border-radius: 4px; outline: none;" class="form-control" name="TrangThai" id="TrangThai" placeholder="Status">
@@ -126,6 +121,19 @@
                         <option value="1">Tạm hết hàng</option>                 
                     </select>
                   </div>
+                  <div class="col-lg-12">
+                    <label for="exampleInputContent">Mô Tả</label>
+                    <textarea type="text" style="height:100px" class="form-control" name="MoTa" id="MoTa" placeholder="Nhập nội dung mô tả"></textarea>
+                  </div>
+                </div>
+                  <!-- <div class="col-lg-6">
+                    <label for="exampleInputTitle">Thể Loại</label>
+                    <select style="border: 1px solid #CED4DA;border-radius: 4px; outline: none;" name="DichGia" class="form-control" id="DichGia" placeholder="Title">
+                    @foreach($tlLoai as $theloaichas)
+                        <option value="{{$theloaichas->id}}">{{$theloaichas->TenTheLoaiCha}}</option>
+                    @endforeach
+                    </select>
+                  </div> -->
                 </div>
                 <div class="row" style="float:right">
                   <button type="submit" class="btn btn-success"><i class="fas fa-save"></i></button> &nbsp;

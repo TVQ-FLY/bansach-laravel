@@ -194,7 +194,9 @@ class UserController extends Controller
         return view('user.header.menu',compact('sach','listcha','sach1'));
     }
     public function TheLoaiSach($id){
+    $infoTheLoai = TheLoai::where('id', $id)->first();
     $idsach = TheLoaiSach::select('IdSach')->where('IdTheLoai', $id)->get();
+
     $sach= Sach::whereIn('id', $idsach)->where('Xoa',0)->where('TrangThai',2)->paginate(12);
     $listcha=TheLoaiCha::where('Xoa',0)->get();
     $sach1=TheLoai::all();
@@ -227,8 +229,9 @@ class UserController extends Controller
         $sach=Sach::where('TrangThai',2)->where('DichGia',  $request->tacgia)->get();
 
     }
+    
     else $min_price = 0;
-     return view($this->user."theloai",compact('sach','tacgia','listcha','sach1','min_price','max_price', 'min_price_range', 'max_price_range'));
+     return view($this->user."theloai",compact('sach','infoTheLoai','tacgia','listcha','sach1','min_price','max_price', 'min_price_range', 'max_price_range'));
     }
     public function Contact(){
         $listcha=TheLoaiCha::where('Xoa',0)->get();

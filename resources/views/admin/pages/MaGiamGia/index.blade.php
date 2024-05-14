@@ -24,8 +24,9 @@
 
                   </div>
                 </div>
-                  <!-- /.card-header -->
-                  <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                <!-- /.card-header -->
+                <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                    <a class="btn btn-primary" href="{{ route('magiamgia.create')}}"  style="padding: 0.5rem 1.5rem; border-radius: 10px; margin-left:40px"><i class='fas fa-plus' style='font-size:15px'></i></a>
                     <div class="card-body">
                     <table id="book" class="table" broder="1"  >
                   <thead>

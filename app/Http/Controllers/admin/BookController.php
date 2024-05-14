@@ -9,6 +9,7 @@ use App\Models\NhaXuatBan;
 use App\Models\KhuyenMai;
 use App\Models\KichThuoc;
 use App\Models\TacGia;
+use App\Models\TheLoaiCha;
 use App\Models\Sach;
 use App\Classes\Helper;
 use Session;
@@ -38,8 +39,9 @@ class BookController extends Controller
         $nhacc = NhaCungCap::where('TrangThai',1)->where('Xoa',0)->get();
         $nhaxuatban = NhaXuatBan::where('Xoa', 0)->get();
         $tacgia = TacGia::where('Xoa', 0)->get();
+        $tlLoai = TheLoaiCha::where('Xoa', 0)->get();
         $kichthuoc = KichThuoc::where('Xoa', 0)->get();
-        return view('admin.pages.Book.create', compact('nhacc', 'nhaxuatban', 'km','tacgia','kichthuoc'));
+        return view('admin.pages.Book.create', compact('nhacc', 'nhaxuatban', 'km','tacgia','kichthuoc','tlLoai'));
     }
     public function imageUpload(Request $request){
         if($request->hasFile('AnhSach')){
@@ -72,6 +74,7 @@ class BookController extends Controller
             'NamXB' => 'required',
             'GiaTien' => 'required',
             'DichGia'=>'required',
+            'MoTa' => 'required',
             'KichThuoc'=>'required',
             'MoTa' => 'required',
             'IdKM' => 'required',
@@ -155,6 +158,7 @@ class BookController extends Controller
             'NamXB' => 'required',
             'GiaTien' => 'required',
             'DichGia'=>'required',
+            'MoTa' => 'required',
             'KichThuoc'=>'required',
             'IdKM' => 'required',
             'TrangThai'=>'required',
