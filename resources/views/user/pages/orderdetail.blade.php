@@ -97,7 +97,7 @@ td, th {
                         <td>{{ $sp->SoLuong }}</td>
                         <td>{{ number_format( $sp->GiaBan,0,",",",") }} VND</td>
                         <td>{{ number_format( $sp->GiaBan*$sp->SoLuong,0,",",",") }} VND</td>
-                        <td>{{ number_format( 15000,0,",",",") }} VND </td>
+                        <td>{{ number_format( 40000,0,",",",") }} VND </td>
                     </tr>
                     @endforeach
                     </tbody>

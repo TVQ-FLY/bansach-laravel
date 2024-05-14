@@ -45,15 +45,15 @@ table.timetable_sub {
     text-align: center;
     padding: 7px;
     font-size: 16px;
-    color: #868282;
+    color: #000000;
 }
 
 .timetable_sub td {
-	border: 1px solid #CDCDCD;
+	border: 2px solid #ff4e00;
 }
 
 td.invert-image a img {
-	width: 70%;
+	width: 30%;
 	margin: 0 auto;
 }
 

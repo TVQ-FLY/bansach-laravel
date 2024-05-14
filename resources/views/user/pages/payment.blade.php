@@ -137,10 +137,10 @@ td, th {
                     <div class="all-total">
                         <div class="all-order">Tổng đơn hàng: <p>{{ number_format($tong_tien,0,",",",") }} VND</p>
                         </div>
-                        <div class="price-discount" id="div_num_discount" hidden>Khuyến mãi: <p style="color:red" id="num_discount">15,000 VND</p>
+                        <div class="price-discount" id="div_num_discount" hidden>Khuyến mãi: <p style="color:red" id="num_discount">40,000 VND</p>
                         </div>
-                        <div class="price-delivery">Phí giao hàng: <p>15,000 VND</p>
-                        <input id="fee_ship" hidden value="15000">
+                        <div class="price-delivery">Phí giao hàng: <p>40,000 VND</p>
+                        <input id="fee_ship" hidden value="40000">
                         </div>
                         <div class="discout-payment">
                             <p>Nhập mã khuyến mãi: </p>
@@ -159,9 +159,9 @@ td, th {
                         <p id="coupon-error" hidden style="color:red" >Mã khuyến mãi không hợp lệ</p>
                     </div>
                     <hr style="margin-top:15px; margin-bottom:10px" />
-                    <div class="all-total-price">Tổng cộng: <p id="total-money">{{ number_format($tong_tien + 15000,0,",",",") }} VND</p>
+                    <div class="all-total-price">Tổng cộng: <p id="total-money">{{ number_format($tong_tien + 40000,0,",",",") }} VND</p>
                         <input hidden id="priceOriginal" value="{{$tong_tien}}" />
-                        <input type="text" value="{{ $tong_tien +15000 }}" hidden name="tongTien">
+                        <input type="text" value="{{ $tong_tien +40000 }}" hidden name="tongTien">
                         <input  hidden name="totalDiscount" id="totalDiscount"/>
                     </div>
                     <div class="form-check">
