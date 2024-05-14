@@ -27,8 +27,6 @@ class MaGiamGiaController extends Controller
      */
     public function create()
     {
-       
-
         //
         return view('admin.pages.MaGiamGia.create');
     }
@@ -47,7 +45,7 @@ class MaGiamGiaController extends Controller
             'Code' => 'required',
             'SoLuong' => 'required',
             'ChietKhau' => 'required',
-            'LoaiKM' => 'required',
+            // 'LoaiKM' => 'required',
             'NgayBĐ' => 'required',
             'NgayKT' => 'required',
             'TrangThai'=> 'required',
@@ -55,7 +53,7 @@ class MaGiamGiaController extends Controller
         $magiamgia->Code=$request->Code;
         $magiamgia->SoLuong=$request->SoLuong;
         $magiamgia->ChietKhau=$request->ChietKhau;
-        $magiamgia->LoaiKM=$request->LoaiKM;
+        $magiamgia->LoaiKM= 1;
         $magiamgia->NgayBĐ=$request->NgayBĐ;
         $magiamgia->NgayKT=$request->NgayKT;
         $magiamgia->TrangThai=$request->TrangThai;
@@ -64,10 +62,11 @@ class MaGiamGiaController extends Controller
         {
             Session::flash('message', 'Thêm thành công!');
         }
-        else
+        else {
             Session::flash('message', 'Thêm thất bại!');
-    
+        }
         return redirect()->route('magiamgia.index');
+            
     }
 
     /**
