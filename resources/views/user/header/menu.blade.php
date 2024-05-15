@@ -50,9 +50,9 @@
 							</ul>
 						</li>
 						<!-- Tin tức -->
-						<!-- <li class="nav-item">
+						<li class="nav-item">
 							<a class="nav-link" href="{{ route('user.new')}}">Tin Tức</a>
-						</li> -->
+						</li>
 							<!-- Giới thiệu -->
 							<li class="nav-item">
 							<a class="nav-link" href="{{ route('user.about')}}">Giới Thiệu</a>

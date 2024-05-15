@@ -6,7 +6,6 @@
 
 <div class="banner">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		
 		<div class="carousel-inner" role="listbox">
 			@foreach($slideshow as $slideshows)
 			<div class="carousel-item active"><img src="{!! asset('image/'.$slideshows->HinhAnh)!!}" class="img-fluid" alt="">
@@ -69,6 +68,8 @@
 
 
 	</div>
+
+	
 	<!--//banner-sec-->
 	<section class="banner-bottom-wthreelayouts py-lg-5 py-3">
 		<div class="container-fluid">

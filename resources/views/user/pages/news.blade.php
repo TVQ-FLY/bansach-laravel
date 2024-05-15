@@ -36,8 +36,8 @@
 				<h2 class="tittle-w3layouts my-lg-4 my-4"></h2>
 				<div class="row">
 					
-					<div class="col-md-4" style="padding: 0 50px 30px 50px">
-						<div class="product-googles-info googles" style="height:400px">
+					<div class="col-md-4" style="padding: 0 50px 30px 50px;">
+						<div class="product-googles-info googles" style="height:300px; min-height: 300px">
 							<div class="men-pro-item" >
 								<!-- Hình ảnh -->
 								<div class="men-thumb-item" >
@@ -57,8 +57,9 @@
 										<div class="grid_meta" style="padding-left:20px; height:100px">
 											<div class="">
 												<h6 style="padding-top:20px; color: #959596;">
-													<a href="" target="_blank">Khuyến Mãi Hè 2021-Đến Hè Là Giảm..!</a>
+													<a href="https://vincom.com.vn/promotion/khuyen-mai-he-2023-tai-nha-sach-phuong-nam" target="_blank">Khuyến Mãi Hè 2024-Đến Hè Là Giảm..!</a>
 												</h6>
+												
 											</div>
 										</div>
 									</div>
@@ -68,7 +69,7 @@
 						</div>					
 					</div>
 					<div class="col-md-4" style="padding: 0 50px 30px 50px">
-						<div class="product-googles-info googles" style="height:400px">
+						<div class="product-googles-info googles" style="height:300px; min-height: 300px">
 							<div class="men-pro-item" >
 								<!-- Hình ảnh -->
 								<div class="men-thumb-item" >
@@ -77,16 +78,13 @@
 									</a>
 								
 									<span class="product-new-top" style="background-color: blue;">Sự Kiện</span>
-							
-								
-									
 								</div>
 								<div class="item-info-product">
 									<div class="info-product-price">
-										<div class="grid_meta" style="padding-left:20px; height:100px">
+										<div class="grid_meta" style="padding-left:20px; height:100px ">
 											<div class="">
-												<h6 style="padding-top:20px; color: #959596;">
-													<a href="" target="_blank">Chào Tết 2021-Mỗi Gia Đình Là Một Tủ Sách Cho Con</a>
+												<h6 style="padding-top:20px; color: #959596; ">
+													<a href="https://lrel.ued.udn.vn/vi/news/hoat-dong/ngay-sach-va-van-hoa-doc-viet-nam-21-4-chu-de-nam-2024-sach-hay-ban-doc-120.html" target="_blank">Chào Tết 2024-Mỗi Gia Đình Là Một Tủ Sách Cho Con</a>
 												</h6>
 											</div>
 										</div>
@@ -97,7 +95,7 @@
 						</div>					
 					</div>
 					<div class="col-md-4" style="padding: 0 50px 30px 50px">
-						<div class="product-googles-info googles" style="height:400px">
+						<div class="product-googles-info googles" style="height:300px; min-height: 300px">
 							<div class="men-pro-item" >
 								<!-- Hình ảnh -->
 								<div class="men-thumb-item" >
@@ -126,7 +124,7 @@
 						</div>					
 					</div>
 					<div class="col-md-4" style="padding: 0 50px 30px 50px">
-						<div class="product-googles-info googles" style="height:400px">
+						<div class="product-googles-info googles" style="height:300px; min-height: 300px">
 							<div class="men-pro-item" >
 								<!-- Hình ảnh -->
 								<div class="men-thumb-item" >
@@ -153,7 +151,7 @@
 						</div>					
 					</div>
 					<div class="col-md-4" style="padding: 0 50px 30px 50px">
-						<div class="product-googles-info googles" style="height:400px">
+						<div class="product-googles-info googles" style="height:300px; min-height: 300px">
 							<div class="men-pro-item" >
 								<!-- Hình ảnh -->
 								<div class="men-thumb-item" >
@@ -178,7 +176,7 @@
 						</div>					
 					</div>
 					<div class="col-md-4" style="padding: 0 50px 30px 50px">
-						<div class="product-googles-info googles" style="height:400px">
+						<div class="product-googles-info googles" style="height:300px; min-height: 300px">
 							<div class="men-pro-item" >
 								<!-- Hình ảnh -->
 								<div class="men-thumb-item" >
