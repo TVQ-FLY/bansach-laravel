@@ -505,7 +505,7 @@ class HoaDonController extends Controller
               }
               $output .=   
               '</td>
-              <td>15,000 VND</td>
+              <td>40,000 VND</td>
           </tr>
       </table>
   </div>

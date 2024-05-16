@@ -80,35 +80,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 grid-margin stretch-card">
-                <div class="card">
-                    <div class="card-body">
-                        <!-- <p class="card-title">Biểu Đồ Thống Kê Đơn Hàng</p>
-                        <script src="https://code.highcharts.com/highcharts.js"></script>
-                        <script src="https://code.highcharts.com/modules/exporting.js"></script>
-                        <script src="https://code.highcharts.com/modules/export-data.js"></script>
-                        <script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
-
-                        <figure class="highcharts-figure">
-                            <div id="container" ></div>
-                            
-                        </figure>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 grid-margin stretch-card">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                            <p class="card-title">Doanh thu đơn hàng từng năm</p>
-                            <!-- <a href="#" class="text-info">Xem tất cả</a> -->
-                        </div>
-                        <canvas id="myChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
     <footer class="footer">
         <div class="d-sm-flex justify-content-center justify-content-sm-between">
