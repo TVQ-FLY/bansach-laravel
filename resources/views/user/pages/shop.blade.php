@@ -148,7 +148,7 @@
 																	<a href="{{route('user.single',$books->id)}}">{{$books->TenSach}}</a>
 																</h4>
 																<div class="grid-price mt-2">
-																	<span class="money ">Giá: {{number_format($books->GiaTien,0,",",",")}} VND</span>
+																	<center><span class="money ">Giá: {{number_format($books->GiaTien,0,",",",")}} VND</span></center>
 																</div>
 															</div>
 															

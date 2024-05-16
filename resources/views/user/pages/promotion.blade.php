@@ -111,9 +111,11 @@
 																</h4>
 																<div class="grid-price mt-2">
                                                                     @if($books->GiaKM !=0)
-																<div class="price"><span class="money ">Giá: {{number_format($books->GiaKM,0,",",",")}} VND</span></div>
+																<div class="price">
+																	<center><span class="money ">Giá: {{number_format($books->GiaKM,0,",",",")}} VND</span></center>
+																</div>
                                                                   
-																<div class="rootprice"> <del>	<span class="money ">{{number_format($books->GiaTien,0,",",",")}} VND</span></del></div>
+																<div class="rootprice"><center><del>	<span class="money ">{{number_format($books->GiaTien,0,",",",")}} VND</span></del></center> </div>
                                                                 @else
                                                                 <span class="money ">{{number_format($books->GiaTien,0,",",",")}} VND</span>
                                                                 @endif
