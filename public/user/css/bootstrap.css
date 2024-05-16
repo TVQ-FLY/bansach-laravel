@@ -169,6 +169,7 @@ sup {
 a {
   color: #000000;
   padding-left: 10px;
+  font-weight: 600;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
