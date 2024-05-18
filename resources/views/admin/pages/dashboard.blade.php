@@ -3,11 +3,11 @@
 <!-- partial -->
 <div class="main-panel">
     <div class="content-wrapper">
+        <marquee><h3 class="font-weight-bold p-2">CHÀO MỪNG ĐẾN VỚI KHO TÀNG KIẾN THỨC NHÂN LOẠI - HỆ THỐNG QUẢN TRỊ HRT BOOKS</h3></marquee>
         <div class="row">
             <div class="col-md-12 grid-margin">
                 <div class="row">
                     <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                        <h3 class="font-weight-bold">Chào mừng HRT Books</h3>
                         
                     </div>
                     <div class="col-12 col-xl-4">
@@ -27,29 +27,27 @@
                         <img src="images/dashboard/people.png" alt="people">
                         <div class="weather-info">
                             <div class="d-flex">
-                             
-                               
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 grid-margin transparent">
+            <div class="col-md-6 grid-margin transparent mt-4">
                 <div class="row">
                     <div class="col-md-6 mb-4 stretch-card transparent">
                         <div class="card card-tale">
-                            <div class="card-body">
-                                <p class="mb-4">Thống Kê Theo Đơn Hàng Trong Tháng</p>
-                                <p class="fs-30 mb-2">{{number_format($totalMoneyInMonth,0,",",",")}} VND</p>
+                            <div class="card-body m-4">
+                                <p class="mb-4 font-weight-bold">Thống Kê Theo Đơn Hàng Trong Tháng</p>
+                                <p class="fs-30 mb-2 font-weight-bold">{{number_format($totalMoneyInMonth,0,",",",")}} VND</p>
                                 <p>{{number_format($totalMoneyInMonth,0,",",",")}} VND (1 Tháng)</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mb-4 stretch-card transparent">
                         <div class="card card-dark-blue">
-                            <div class="card-body">
-                                <p class="mb-4">Tổng Số Khách Hàng Trong Tháng</p>
-                                <p class="fs-30 mb-2">{{$totalAccountInMonth}}</p>
+                            <div class="card-body m-4">
+                                <p class="mb-4 font-weight-bold">Tổng Số Khách Hàng Trong Tháng</p>
+                                <p class="fs-30 mb-2 font-weight-bold">{{$totalAccountInMonth}}</p>
 
                             </div>
                         </div>
@@ -58,27 +56,25 @@
                 <div class="row">
                     <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
                         <div class="card card-light-blue">
-                            <div class="card-body">
-                                <p class="mb-4">Tổng Đơn Hàng Trong Tháng</p>
-                                <p class="fs-30 mb-2">{{$totalBillInMonth}}</p>
+                            <div class="card-body m-4">
+                                <p class="mb-4 font-weight-bold">Tổng Đơn Hàng Trong Tháng</p>
+                                <p class="fs-30 mb-2 font-weight-bold">{{$totalBillInMonth}}</p>
 
                             </div>
                         </div>
                     </div>
-
-                    
-
                     <div class="col-md-6 stretch-card transparent">
                         <div class="card card-light-danger">
-                            <div class="card-body">
-                                <p class="mb-4">Tổng Số Sản Phẩm</p>
-                                <p class="fs-30 mb-2">{{$app_product}}</p>
+                            <div class="card-body m-4">
+                                <p class="mb-4 font-weight-bold">Tổng Số Sản Phẩm</p>
+                                <p class="fs-30 mb-2 font-weight-bold">{{$app_product}}</p>
 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
         
     </div>

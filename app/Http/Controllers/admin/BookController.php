@@ -62,7 +62,9 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
+        // return $request->all();
         $sach = new Sach;
+      
        // dd($request);dd($request);
         $this->validate($request, [
             'TenSach' => 'required',
@@ -74,7 +76,6 @@ class BookController extends Controller
             'NamXB' => 'required',
             'GiaTien' => 'required',
             'DichGia'=>'required',
-            'MoTa' => 'required',
             'KichThuoc'=>'required',
             'MoTa' => 'required',
             'IdKM' => 'required',
@@ -82,8 +83,10 @@ class BookController extends Controller
 
         ]);
         
+   
         $sach->TenSach=$request->TenSach;
         $sach->AnhSach=$this->imageUpload($request);
+        
         $sach->NhaXuatBan=$request->NhaXuatBan;
         $sach->IdNCC=$request->IdNCC;
         $sach->LoaiBia=$request->LoaiBia;
@@ -96,16 +99,19 @@ class BookController extends Controller
         $sach->MoTa=$request->MoTa;
         if(empty($request->check)){
         $sach->IdKM=$request->IdKM;
-    }
+             }
         
         $sach->TrangThai=$request->TrangThai;
         $sach->Xoa=0;
+     
         if($sach->save())
         {
+            
             Session::flash('message','thêm sản phẩm thành công');
         }
         else
         {
+          
         Session::flash('message','thêm sản phẩm thất bại');
         }
         return redirect()->route('sach.index');
@@ -158,7 +164,7 @@ class BookController extends Controller
             'NamXB' => 'required',
             'GiaTien' => 'required',
             'DichGia'=>'required',
-            'MoTa' => 'required',
+            // 'MoTa' => 'required',
             'KichThuoc'=>'required',
             'IdKM' => 'required',
             'TrangThai'=>'required',
